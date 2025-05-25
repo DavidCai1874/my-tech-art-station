@@ -30,19 +30,29 @@ export default function Navbar() {
       }`}
     >
       <div className="flex items-center">
-        {/* 左侧大导航 */}
+        {/* 左侧导航 */}
         <div className="flex space-x-8 text-xl font-bold">
           <Link to="/" className="whitespace-nowrap">Home</Link>
-          <Link to="/addons" className="whitespace-nowrap">Addons</Link>
-          <Link to="/troubleshooting" className="whitespace-nowrap">Trouble Shooting</Link>
-          <Link to="/workingon" className="whitespace-nowrap">Working On</Link>
-          <Link to="/classprogress" className="whitespace-nowrap">Class Progress</Link>
-        </div>
-        {/* 中间空白占位 */}
-        <div className="flex-1" />
-        {/* 右侧只剩下 About */}
-        <div className="flex items-center text-xl font-bold">
+          <Link to="/contribute" className="whitespace-nowrap">Contribute</Link>
+          <Link to="/playground" className="whitespace-nowrap">Playground</Link>
           <Link to="/about" className="whitespace-nowrap">About</Link>
+        </div>
+        {/* 中间搜索栏，顶满空白 */}
+        <div className="flex-1 flex justify-center px-8">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="w-full max-w-2xl px-3 py-1 rounded bg-gray-700 text-white focus:outline-none"
+          />
+        </div>
+        {/* 右侧导航 */}
+        {/* 右侧导航 */}
+        <div className="flex items-center space-x-6 text-xl font-bold">
+          <Link to="/addons" className="whitespace-nowrap">Addons</Link>
+          <Link to="/troubleshooting" className="whitespace-nowrap">TroubleShooting</Link>
+          <Link to="/workingon" className="whitespace-nowrap">Work In Progress</Link>
+          <Link to="/classprogress" className="whitespace-nowrap">Weekly Log</Link>
+          <Link to="/gallery" className="whitespace-nowrap">Gallery</Link>
         </div>
       </div>
     </nav>

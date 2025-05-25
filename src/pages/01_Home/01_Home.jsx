@@ -1,7 +1,7 @@
-import Banner from './1_banner';
-import NavLinks from './2_nav_links';
-import UpdatesSection from './3_website_updates';
-import ContactSection from './4_submit_question';
+import Banner from './components/1_banner';
+import NavLinks from './components/2_nav_links';
+import UpdatesSection from './components/3_website_updates';
+import ContactSection from './components/4_submit_question';
 
 export default function Home() {
   return (
