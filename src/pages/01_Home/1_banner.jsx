@@ -1,4 +1,4 @@
-import treeImg from '../../assets/01_main_tree.jpg';
+import treeImg from '../../01_main_tree.jpg';
 
 export default function Banner() {
   return (

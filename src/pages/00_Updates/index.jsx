@@ -1,4 +1,4 @@
-import updates from '../07_Updates/_updates.js';
+import updates from './_updates.js';
 
 export default function UpdatesPage() {
   return (

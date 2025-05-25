@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import updates from '../07_Updates/_updates.js';
+import updates from '../00_Updates/_updates.js';
 
 export default function UpdatesSection() {
   // 只显示最新 10 条
