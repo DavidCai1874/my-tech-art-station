@@ -50,8 +50,8 @@ export default function Navbar() {
         <div className="flex items-center space-x-6 text-xl font-bold">
           <Link to="/addons" className="whitespace-nowrap">Addons</Link>
           <Link to="/troubleshooting" className="whitespace-nowrap">TroubleShooting</Link>
-          <Link to="/workingon" className="whitespace-nowrap">Work In Progress</Link>
-          <Link to="/classprogress" className="whitespace-nowrap">Weekly Log</Link>
+          <Link to="/workinprogress" className="whitespace-nowrap">Work In Progress</Link>
+          <Link to="/weeklylog" className="whitespace-nowrap">Weekly Log</Link>
           <Link to="/gallery" className="whitespace-nowrap">Gallery</Link>
         </div>
       </div>

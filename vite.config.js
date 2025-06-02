@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  assetsInclude: ['**/*.md'],
   base: '/my-tech-art-station/',
   server: {
     historyApiFallback: true,

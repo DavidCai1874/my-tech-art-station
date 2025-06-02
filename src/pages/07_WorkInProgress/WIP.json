@@ -1,0 +1,51 @@
+{
+  "workingOn": [
+    {
+      "title": "学习 Maya 代码",
+      "steps": []
+    },
+    {
+      "title": "理解搭网站代码",
+      "steps": []
+    }
+  ],
+  "upcoming": [
+    {
+      "title": "unity game + shader",
+      "steps": []
+    },
+    {
+      "title": "change everything to english",
+      "steps": []
+    },
+    {
+      "title": "边学其他网站的界面布局边搭",
+      "steps": [
+        "home",
+        "sections update",
+        "all updates pages",
+        "contact + contribute guide",
+        "playground",
+        "easy interaction",
+        "some rough tried shaders",
+        "addons",
+        "frameworks - grids",
+        "troubleshooting",
+        "image urls",
+        "wip",
+        "ui change",
+        "weekly log",
+        "delet all the years except 2025, 2026",
+        "fix ui",
+        "delete the chinese versions",
+        "fix the ui within each era logs",
+        "gallery",
+        "scrolls",
+        "articles",
+        "catergories",
+        "contribute + about",
+        "search bar"
+      ]
+    }
+  ]
+}

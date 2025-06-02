@@ -10,8 +10,8 @@ import About from './pages/04_About/04_About.jsx';
 
 import Addons from './pages/05_Addons/05_Addons.jsx';
 import TroubleShooting from './pages/06_TroubleShooting/06_TroubleShooting.jsx';
-import WorkingOn from './pages/07_WorkInProgress/07_WorkInProgress.jsx';
-import ClassProgress from './pages/08_WeeklyLog/08_WeeklyLog.jsx';
+import WorkInProgress from './pages/07_WorkInProgress/07_WorkInProgress.jsx';
+import WeeklyLog from './pages/08_WeeklyLog/08_WeeklyLog.jsx';
 import Gallery from './pages/09_Gallery/09_Gallery.jsx';
 
 
@@ -23,8 +23,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/addons" element={<Addons />} />
         <Route path="/troubleshooting" element={<TroubleShooting />} />
-        <Route path="/workingon" element={<WorkingOn />} />
-        <Route path="/classprogress" element={<ClassProgress />} />
+        <Route path="/workinprogress" element={<WorkInProgress />} />
+        <Route path="/weeklylog/*" element={<WeeklyLog />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contribute" element={<Contribute />} />
