@@ -1,0 +1,29 @@
+.my-navbar {
+  background-color: #052634;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  transition: transform 0.3s;
+}
+
+.my-navbar.show {
+  transform: translateY(0);
+}
+
+.my-navbar.hide {
+  transform: translateY(-100%);
+}
+
+/* 导航栏内的链接样式 */
+.my-navbar a {
+  font-weight: 500;
+  color: #8DD8FF;
+  text-decoration: inherit;
+}
+.my-navbar a:hover {
+  color: #BBFBFF;
+  transition: color 0.05s;
+}

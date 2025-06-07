@@ -1,4 +1,5 @@
 const updates = [
+  { date: "2025-06-07", text: "Changed the color palette, cleaned up index.css, fixed the bug where pages go to the left side only by defining CSS for the root html, added search bar code, deployed to see if it works, and worked a bit on the WIP page." },
   { date: "2025-06-02", text: "Finished the framework and added content to the WIP and Weekly Log pages. Committed to GitHub." },
   { date: "2025-06-01", text: "Started my very first weekly log." },
   { date: "2025-05-25", text: "Finished planning the navigation bar, renamed the page folders with index, and kept the order the same as the navigation bar." },

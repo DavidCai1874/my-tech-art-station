@@ -21,15 +21,15 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/updates" element={<UpdatesPage />} />
+        <Route path="/contribute" element={<Contribute />} />
+        <Route path="/playground" element={<Playground />} />
+        <Route path="/about" element={<About />} />
         <Route path="/addons" element={<Addons />} />
         <Route path="/troubleshooting" element={<TroubleShooting />} />
         <Route path="/workinprogress" element={<WorkInProgress />} />
         <Route path="/weeklylog/*" element={<WeeklyLog />} />
-        <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contribute" element={<Contribute />} />
-        <Route path="/playground" element={<Playground />} />
-        <Route path="/updates" element={<UpdatesPage />} />
       </Routes>
     </>
   );
