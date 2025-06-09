@@ -1,12 +1,24 @@
 {
   "workingOn": [
     {
-      "title": "学习 Maya 代码",
-      "steps": []
+      "title": "Study Maya Python",
+      "steps": [
+        "Understand codes"
+      ]
     },
     {
-      "title": "理解搭网站代码",
-      "steps": []
+      "title": "Understand the site codes",
+      "steps": [
+        "Fix the Weekly Log part",
+        "solve troubleshooting pics",
+        "number them",
+        "do my first troubkleshooting",
+        "do my first addon article",
+        "finish the search bar",
+        "if there's number start with ## for ts and addon articles, search bar can show them",
+        "home",
+        "README"
+      ]
     }
   ],
   "upcoming": [
@@ -19,32 +31,13 @@
       "steps": []
     },
     {
-      "title": "边学其他网站的界面布局边搭",
+      "title": "Update the website",
       "steps": [
-        "home",
-        "sections update",
-        "all updates pages",
-        "contact + contribute guide",
-        "playground",
-        "easy interaction",
-        "some rough tried shaders",
-        "addons",
-        "frameworks - grids",
-        "troubleshooting",
-        "image urls",
-        "wip",
-        "ui change",
-        "weekly log",
-        "delet all the years except 2025, 2026",
-        "fix ui",
-        "delete the chinese versions",
-        "fix the ui within each era logs",
+        "about",
+        "contribute",
         "gallery",
-        "scrolls",
-        "articles",
-        "catergories",
-        "contribute + about",
-        "search bar"
+        "playground"
+
       ]
     }
   ]

@@ -9,17 +9,21 @@ export default function SearchBar() {
   const dropdownRef = useRef();
 
   useEffect(() => {
-    fetch('/searchIndex.json')
+    fetch('public/searchIndex.json')
       .then(res => res.json())
-      .then(setIndex);
+      .then(data => {
+        console.log('Loaded index:', data);
+        setIndex(data);
+      });
   }, []);
 
   // 匹配所有包含关键字的标题
   const results = searchTerm
-    ? index.filter(item =>
-        item.title.toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    : [];
+  ? index.filter(item => {
+      console.log('compare:', item.title, searchTerm);
+      return String(item.title).toLowerCase().includes(searchTerm.trim().toLowerCase());
+    })
+  : [];
 
   // 点击搜索按钮或输入时显示下拉
   const handleSearch = (e) => {
@@ -50,6 +54,7 @@ export default function SearchBar() {
           placeholder="Type to search..."
           value={searchTerm}
           onChange={e => {
+            console.log('input:', e.target.value);
             setSearchTerm(e.target.value);
             setShowDropdown(true);
           }}

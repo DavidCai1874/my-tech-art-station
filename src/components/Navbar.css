@@ -7,6 +7,7 @@
   left: 0;
   z-index: 50;
   transition: transform 0.3s;
+  box-shadow: 0 4px 9px rgba(1, 10, 28, 0.131);
 }
 
 .my-navbar.show {
@@ -17,7 +18,6 @@
   transform: translateY(-100%);
 }
 
-/* 导航栏内的链接样式 */
 .my-navbar a {
   font-weight: 500;
   color: #8DD8FF;
@@ -25,5 +25,4 @@
 }
 .my-navbar a:hover {
   color: #BBFBFF;
-  transition: color 0.05s;
 }

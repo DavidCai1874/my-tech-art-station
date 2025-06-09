@@ -1,7 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 import periodGroups from "./Era.json";
 import Summer2025 from "./Era/2025_06Summer/2025_06Summer";
-import Weekly_2025_06_01 from "./Era/2025_06Summer/06_01/20250601";
 
 // 这个组件负责渲染格子页面
 function WeeklyProgress() {

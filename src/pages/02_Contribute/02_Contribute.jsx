@@ -15,7 +15,7 @@ export default function Contribute() {
   return (
     <div className="w-screen min-h-[60vh] flex items-center justify-center">
       <div className="w-full max-w-xl">
-        <h1 className="text-3xl font-bold mb-6 text-center">Contribute 🚧</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">Contribute 🚧(still WIP not working yet)</h1>
         <form
           className="bg-white rounded shadow p-8 flex flex-col gap-4"
           onSubmit={handleSubmit}

@@ -10,9 +10,9 @@ const navItems = [
 export default function NavLinks() {
   return (
     <div className="w-full mx-auto my-12">
-      <div className="text-2xl font-bold text-gray-800 mb-6 text-left">
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
         Go to a Section
-      </div>
+      </h2>
       <div className="grid grid-cols-2 gap-8">
         {navItems.map(({ to, label }) => (
           <Link

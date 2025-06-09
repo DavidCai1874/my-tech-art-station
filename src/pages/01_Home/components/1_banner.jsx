@@ -5,7 +5,9 @@ export default function Banner() {
     <div className="relative w-screen h-[70vh] overflow-hidden">
       <img src={treeImg} alt="Welcome" className="block w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-white drop-shadow-lg">Welcome!</h1>
+        <div className="text-7xl font-bold text-white translate-y-[-25px]">
+          Welcome!
+        </div>
       </div>
     </div>
   );

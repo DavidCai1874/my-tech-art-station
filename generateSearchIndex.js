@@ -21,19 +21,31 @@ function walk(dir)
     {
       walk(fullPath);
     } 
+        // ...existing code...
     else if (file.endsWith('.md')) 
     {
       const fileContent = fs.readFileSync(fullPath, 'utf-8');
       const { data } = matter(fileContent);
-      const title = data.title || file.replace('.md', '');
+    
+      // 优先 frontmatter title，否则取第一个 # 开头的标题，否则用文件名
+      let title = data.title;
+      if (!title) {
+        const match = fileContent.match(/^#\s+(.+)$/m);
+        if (match) {
+          title = match[1].trim();
+        } else {
+          title = file.replace('.md', '');
+        }
+      }
+    
       // 生成相对路径
       const relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
-      output.push
-      ({
+      output.push({
         title: title,
         path: relativePath.replace('.md', ''),
       });
     }
+    // ...existing code...
   });
 }
 
