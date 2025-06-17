@@ -1,34 +1,10 @@
 [
   {
-    "title": "202234",
+    "title": "2026",
     "periods": [
-      { "label": "2025 Fall\nJune - August", "path": "2025fall" },
-      { "label": "2025 Summer", "path": "2025summer" },
-      { "label": "2025 Spring", "path": "2025spring" }
-    ]
-  },
-  {
-    "title": "2029",
-    "periods": [
-      { "label": "2025 Fall\nJune - August", "path": "2025fall" },
-      { "label": "2025 Summer", "path": "2025summer" },
-      { "label": "2025 Spring", "path": "2025spring" }
-    ]
-  },
-  {
-    "title": "2028",
-    "periods": [
-      { "label": "2025 Fall\nJune - August", "path": "2025fall" },
-      { "label": "2025 Summer", "path": "2025summer" },
-      { "label": "2025 Spring", "path": "2025spring" }
-    ]
-  },
-  {
-    "title": "2027",
-    "periods": [
-      { "label": "2026 Fall\nJune - August", "path": "202609fall" },
-      { "label": "2026 Summer", "path": "202605summer" },
-      { "label": "2026 Spring", "path": "202601spring" }
+      { "label": "2026 Fall\nSep - Dec", "path": "202609fall" },
+      { "label": "2026 Summer\nMay - Aug", "path": "202605summer" },
+      { "label": "2026 Spring\nJan - Apr", "path": "202601spring" }
     ]
   },
   {

@@ -1,4 +1,4 @@
-import updates from './_updates.js';
+import updates from '../../../public/_updates.js';
 
 export default function UpdatesPage() {
   // 假设每条 update 结构为 { id, text, date: '2024-05-25', year: 2024 }

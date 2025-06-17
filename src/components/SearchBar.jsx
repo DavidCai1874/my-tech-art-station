@@ -9,7 +9,7 @@ export default function SearchBar() {
   const dropdownRef = useRef();
 
   useEffect(() => {
-    fetch('public/searchIndex.json')
+    fetch('public/_searchIndex.json')
       .then(res => res.json())
       .then(data => {
         console.log('Loaded index:', data);
