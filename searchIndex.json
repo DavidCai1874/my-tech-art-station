@@ -1,10 +1,14 @@
 [
   {
     "title": "2025-06-01",
-    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/06_01/20250601"
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250601"
   },
   {
     "title": "2025-06-08",
-    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/06_08/20250608"
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250608"
+  },
+  {
+    "title": "2025-06-15",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250615"
   }
 ]
