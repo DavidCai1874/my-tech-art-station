@@ -1,0 +1,20 @@
+.markdown-body {
+  font-size: 1rem; /* 基础字号 */
+  line-height: 1.8;
+  color: #010311;
+}
+
+.markdown-body p {
+  font-size: 1.3rem;      /* 正文更大 */
+  color: #1c0202;          /* 正文颜色 */
+  margin: 1.2em 0;
+  text-indent: 2em;        /* 正文首行缩进 */
+}
+
+.markdown-body pre, .markdown-body code {
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  background: #f6f8fa;
+  padding: 8px;
+  border-radius: 4px;
+  overflow-x: auto;
+}

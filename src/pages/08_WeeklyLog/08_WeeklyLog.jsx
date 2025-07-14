@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import periodGroups from "./Era.json";
 
 
-const COLORS = ["#B2C9AD", "#91AC8F"];
+// "#C4E1E6", A4CCD9, 8DBCC7
+const COLORS = ["#e1c186ff", "#a3c9cfff" ];
 
 export default function WeeklyLog() {
   const [bgColor, setBgColor] = useState(COLORS[0]);

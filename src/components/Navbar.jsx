@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="flex items-center">
 
         {/* left side nav */}
-        <div className="flex space-x-8 text-xl font-bold">
+        <div className="flex space-x-8 text-xl font-bold ml-2">
           <Link to="/">Home</Link>
           <Link to="/contribute">Contribute</Link>
           <Link to="/playground">Playground</Link>
