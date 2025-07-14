@@ -1,14 +1,34 @@
 [
   {
     "title": "2025-06-01",
-    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250601"
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250601"
   },
   {
     "title": "2025-06-08",
-    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250608"
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250608"
   },
   {
     "title": "2025-06-15",
-    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/20250615"
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250615"
+  },
+  {
+    "title": "2025-06-22",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250622"
+  },
+  {
+    "title": "2025-06-29",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250629"
+  },
+  {
+    "title": "2025-07-06",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250706"
+  },
+  {
+    "title": "2025-07-13",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250713"
+  },
+  {
+    "title": "2025-07-20",
+    "path": "/src/pages/08_WeeklyLog/Era/2025_06Summer/mds/20250720"
   }
 ]

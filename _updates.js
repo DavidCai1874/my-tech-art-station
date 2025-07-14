@@ -1,4 +1,8 @@
 const updates = [
+  { date: "2025-07-14", text: "Finally fixed weekly logs and successfully embedded an image with PicGo and the GitHub repo in my mds. Yeepee!" },
+  { date: "2025-07-13", text: "Adjusted the Navbar and the front page a bit, began fixing the weekly logs." },
+  { date: "2025-06-30", text: "Wrote the weekly log." },
+  { date: "2025-06-22", text: "Wrote the weekly log for last week, though it's already Wednesday..." },
   { date: "2025-06-16", text: "Forgot to write the weekly log yesterday (Sunday), so I'm making it up today, lol. P.S. This update is one day after the log was written, mainly because I'm cleaning the git history of my code repo, so I thought of committing my website too." },
   { date: "2025-06-09", text: "Began fixing the weekly logs page, changed the color" },
   { date: "2025-06-08", text: "Tried to implement the searching in the navigation bar and updated the WIP page." },
