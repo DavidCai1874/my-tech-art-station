@@ -7,7 +7,7 @@
   color: #01131a; /* Darker text color */
   background-color: #f8f5ed; /* Lighter background color */
 
-  padding-top: 4rem; /* 假设 NavBar 高度为 4rem */
+  padding-top: 4rem; /* NavBar Height */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,22 +23,22 @@ body {
 }
 
 h1 {
-  font-size: 3em;   /* 最大标题 */
+  font-size: 3em;  
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 2.45em;   /* 中等标题 */
+  font-size: 2.45em;
   line-height: 1.15;
 }
 
 h3 {
-  font-size: 1.3em; /* 小标题 */
+  font-size: 1.3em;
   line-height: 1.2;
 }
 
 body, p {
-  font-size: 1em;   /* 正文 */
+  font-size: 1em;
 }
 
 

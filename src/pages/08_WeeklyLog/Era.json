@@ -2,16 +2,16 @@
   {
     "title": "2026",
     "periods": [
-      { "label": "2026 Fall\nSep - Dec", "path": "202609fall" },
-      { "label": "2026 Summer\nMay - Aug", "path": "202605summer" },
-      { "label": "2026 Spring\nJan - Apr", "path": "202601spring" }
+      { "label": "2026 Fall\nSep - Dec", "path": "202609fall", "image": "" },
+      { "label": "2026 Summer\nMay - Aug", "path": "202605summer", "image": "" },
+      { "label": "2026 Spring\nJan - Apr", "path": "202601spring", "image": "" }
     ]
   },
   {
     "title": "2025",
     "periods": [
-      { "label": "2025 Fall\nSep - Dec", "path": "202509fall" },
-      { "label": "2025 Summer\nJun - Aug", "path": "202506summer" }
+      { "label": "2025 Fall\nSep - Dec", "path": "2025-09fall", "image": "" },
+      { "label": "2025 Summer\nJun - Aug", "path": "2025-06summer", "image": "src/pages/08_WeeklyLog/Era/_Covers/2025_06Summer.png" }
     ]
   }
 ]

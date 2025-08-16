@@ -1,5 +1,6 @@
 const updates = [
-  { date: "2025-07-14", text: "Finally fixed weekly logs and successfully embedded an image with PicGo and the GitHub repo in my mds. Yeepee!" },
+  { date: "2025-08-16", text: "Add a cover for my summer weekly log, fixed naming conventions, and the searching functionality!" },
+  { date: "2025-07-14", text: "Finally fixed weekly logs and successfully embedded an image with PicGo and the GitHub repo in my mds!" },
   { date: "2025-07-13", text: "Adjusted the Navbar and the front page a bit, began fixing the weekly logs." },
   { date: "2025-06-30", text: "Wrote the weekly log." },
   { date: "2025-06-22", text: "Wrote the weekly log for last week, though it's already Wednesday..." },

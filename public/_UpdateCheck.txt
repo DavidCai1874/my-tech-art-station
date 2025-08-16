@@ -1,0 +1,14 @@
+This is what I should check every Sunday / every time update my website:
+
+- Weekly Log (finish all coding work and comment them out at the beginning of a new era)
+
+- Update WIP.json
+
+- _update.js (If it's not a weekly log update)
+
+- Run searchbar code
+    - node generateSearchIndex.js
+
+- Commit & Push
+
+- Check website update

@@ -26,9 +26,9 @@ export default function WeeklyLayout({ title, weeks, currentDate, children }) {
 
   return (
     <div className="flex w-full mx-auto p-8 gap-8">
-      {/* 左侧空隙 */}
+      {/* left side gap */}
       <div className="basis-1/8 grow-0 shrink-0" />
-      {/* 左侧时间线 */}
+      {/* left side timeline */}
       <div className="w-1/5">
         <div
           className={`bg-gray-50 rounded-lg shadow-lg p-8 sticky transition-all duration-300 ${
@@ -59,11 +59,11 @@ export default function WeeklyLayout({ title, weeks, currentDate, children }) {
           </ul>
         </div>
       </div>
-      {/* 右侧正文 */}
+      {/* right side */}
       <div className="w-4/5 bg-white rounded-lg shadow-lg p-8">
         {children}
       </div>
-      {/* 右侧空隙 */}
+      {/* right side gap */}
       <div className="basis-1/8 grow-0 shrink-0" />
     </div>
   );

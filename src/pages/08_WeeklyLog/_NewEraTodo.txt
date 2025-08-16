@@ -1,0 +1,12 @@
+This is the list of what I need to do when a new era comes.
+
+- Update Era.json
+- Select image for the cover
+- Create folder in Era
+- Copy Paste jsx
+- Create md folder
+- Copy and fix date + week of js file (let copilot do it)
+- Create all the mds(use the code)
+- Write the first md
+- Import into Router
+- Check if it works

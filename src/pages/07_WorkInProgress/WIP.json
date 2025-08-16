@@ -1,15 +1,22 @@
 {
   "workingOn": [
     {
-      "title": "Study Maya Python",
+      "title": "Maya Python Tool",
       "steps": [
-        "Understand codes"
+        "Camera tool",
+        "Viewport tool"
       ]
     },
     {
-      "title": "Understand the site codes",
+      "title": "UE Project",
       "steps": [
-        "Fix the Weekly Log part",
+        "Blueprint Tut",
+        "Begin the project"
+      ]
+    },
+    {
+      "title": "Building the site",
+      "steps": [
         "solve troubleshooting pics",
         "number them",
         "do my first troubkleshooting",
@@ -24,10 +31,6 @@
   "upcoming": [
     {
       "title": "unity game + shader",
-      "steps": []
-    },
-    {
-      "title": "change everything to english",
       "steps": []
     },
     {

@@ -1,7 +1,7 @@
 // generateSearchIndex.js
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter'; // 读取md文件中的frontmatter
+import matter from 'gray-matter';
 
 const contentDirs = [
   path.join(process.cwd(), 'src/pages/05_Addons'),
@@ -10,24 +10,34 @@ const contentDirs = [
 ];
 const output = [];
 
-function walk(dir) 
-{
+function formatWeeklyLogPath(relativePath) {
+  let p = relativePath;
+
+  // 替换 WeeklyLog 路径前缀
+  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, '/weeklylog/');
+
+  // 去掉 /mds/
+  p = p.replace(/\/mds\//gi, '/');
+
+  // 把 2025_06Summer -> 2025-06summer
+  p = p.replace(/\/([^/]+)/g, (match, folder) => {
+    return '/' + folder.replace(/_/g, '-').toLowerCase();
+  });
+
+  return p;
+}
+
+function walk(dir) {
   const files = fs.readdirSync(dir);
-  files.forEach((file) => 
-  {
+  files.forEach((file) => {
     const fullPath = path.join(dir, file);
     const stat = fs.statSync(fullPath);
-    if (stat.isDirectory()) 
-    {
+    if (stat.isDirectory()) {
       walk(fullPath);
-    } 
-        // ...existing code...
-    else if (file.endsWith('.md')) 
-    {
+    } else if (file.endsWith('.md')) {
       const fileContent = fs.readFileSync(fullPath, 'utf-8');
       const { data } = matter(fileContent);
-    
-      // 优先 frontmatter title，否则取第一个 # 开头的标题，否则用文件名
+
       let title = data.title;
       if (!title) {
         const match = fileContent.match(/^#\s+(.+)$/m);
@@ -37,20 +47,24 @@ function walk(dir)
           title = file.replace('.md', '');
         }
       }
-    
-      // 生成相对路径
-      const relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
+
+      let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
+      relativePath = relativePath.replace('.md', '');
+
+      // deal with WeeklyLog
+      if (relativePath.includes('/src/pages/08_WeeklyLog/Era/')) {
+        relativePath = formatWeeklyLogPath(relativePath);
+      }
+
       output.push({
         title: title,
-        path: relativePath.replace('.md', ''),
+        path: relativePath,
       });
     }
-    // ...existing code...
   });
 }
 
-// 遍历所有目录
 contentDirs.forEach(walk);
 
 fs.writeFileSync('./public/searchIndex.json', JSON.stringify(output, null, 2));
-console.log('✅ searchIndex.json generated!');
+console.log('searchIndex.json generated!');

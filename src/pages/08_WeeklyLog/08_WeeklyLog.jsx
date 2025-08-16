@@ -56,13 +56,24 @@ export default function WeeklyLog() {
                     key={period.path}
                     to={`/weeklylog/${period.path}`}
                     className="bg-[#fafbff] rounded-lg shadow-lg h-48 
-                    flex items-center justify-center text-center cursor-pointer 
-                    hover:bg-[#abe2ff] transition duration-300 text-2xl 
-                    font-semibold whitespace-pre-line 
-                    hover:shadow-[0_0_16px_5px_rgba(0,191,255,0.7)]
-                    hover:scale-101"
+                      flex items-center justify-center text-center cursor-pointer 
+                      transition duration-300 text-2xl font-semibold whitespace-pre-line 
+                      hover:shadow-[0_0_16px_5px_rgba(0,191,255,0.7)] hover:scale-101 
+                      relative overflow-hidden group"
+                    style={
+                      period.image
+                        ? {
+                            backgroundImage: `url(${period.image})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                          }
+                        : {}
+                    }
                   >
-                    {period.label}
+                    <div className="absolute inset-0 z-0 bg-white/60 group-hover:bg-blue-400/40 transition-all duration-300" />
+                    <span className="relative z-10 text-black px-2">
+                      {period.label}
+                    </span>
                   </Link>
                 ))}
               </div>

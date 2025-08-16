@@ -9,7 +9,7 @@ export default function SearchBar() {
   const dropdownRef = useRef();
 
   useEffect(() => {
-    fetch('public/_searchIndex.json')
+    fetch('/my-tech-art-station/searchIndex.json')
       .then(res => res.json())
       .then(data => {
         console.log('Loaded index:', data);
@@ -17,21 +17,19 @@ export default function SearchBar() {
       });
   }, []);
 
-  // 匹配所有包含关键字的标题
   const results = searchTerm
   ? index.filter(item => {
       console.log('compare:', item.title, searchTerm);
       return String(item.title).toLowerCase().includes(searchTerm.trim().toLowerCase());
     })
   : [];
+console.log('results:', results);
 
-  // 点击搜索按钮或输入时显示下拉
   const handleSearch = (e) => {
     e.preventDefault?.();
     setShowDropdown(true);
   };
 
-  // 点击外部关闭下拉
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {

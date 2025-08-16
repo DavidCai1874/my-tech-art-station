@@ -1,14 +1,14 @@
 .markdown-body {
-  font-size: 1rem; /* 基础字号 */
+  font-size: 1rem; /* body */
   line-height: 1.8;
   color: #010311;
 }
 
 .markdown-body p {
-  font-size: 1.3rem;      /* 正文更大 */
-  color: #1c0202;          /* 正文颜色 */
+  font-size: 1.3rem;     
+  color: #1c0202;       
   margin: 1.2em 0;
-  text-indent: 2em;        /* 正文首行缩进 */
+  text-indent: 2em;        /* indent */
 }
 
 .markdown-body pre, .markdown-body code {
@@ -17,4 +17,10 @@
   padding: 8px;
   border-radius: 4px;
   overflow-x: auto;
+}
+
+.markdown-body img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
 }
