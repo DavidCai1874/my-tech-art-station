@@ -1,9 +1,18 @@
+import { Link } from 'react-router-dom';
+
 export default function ContactSection() {
   return (
     <section>
       <h2 className="text-2xl font-bold mb-4">Contact</h2>
       <p>
-        Want to collaborate or have questions? Reach out via the About Me page!
+        Have suggestions or want to report an issue? Please reach out to me on the&nbsp;
+        <Link
+          to="contribute"
+          className="text-blue-600 hover:text-blue-800 font-semibold"
+        >
+          Contribute
+        </Link>
+        &nbsp;page!
       </p>
     </section>
   );

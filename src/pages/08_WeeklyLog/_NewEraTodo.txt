@@ -1,7 +1,7 @@
 This is the list of what I need to do when a new era comes.
 
 - Update Era.json
-- Select image for the cover
+- Select image for the cover and put in Era _Cover folder
 - Create folder in Era
 - Copy Paste jsx
 - Create md folder

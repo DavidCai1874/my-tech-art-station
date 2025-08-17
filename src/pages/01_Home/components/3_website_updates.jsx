@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import updates from '../../../../public/_updates.js';
 
 export default function UpdatesSection() {
-  // 只显示最新 10 条
   const latestUpdates = updates.slice(0, 10);
 
   return (
@@ -12,9 +11,9 @@ export default function UpdatesSection() {
         <ul className="pl-0">
           {latestUpdates.map((item, idx) => (
             <li key={item.date} className="list-none">
-              <div className="flex items-center justify-between py-2">
-                <span className="text-gray-500 text-sm">{item.date}</span>
-                <span className="ml-4">{item.text}</span>
+              <div className="flex items-center py-2">
+                <span className="text-gray-500 text-sm flex-shrink-0 w-28 text-center">{item.date}</span>
+                <span className="ml-4 flex-1 break-words">{item.text}</span>
               </div>
               {idx !== latestUpdates.length - 1 && (
                 <div className="border-b border-gray-300" />
