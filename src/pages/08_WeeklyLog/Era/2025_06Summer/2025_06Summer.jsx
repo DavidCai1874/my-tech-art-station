@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import weeks from "./2025_06Summer";
 import "../../MarkdownBody.css";
 
-export default function Summer2025() {
+export default function _2025Summer() {
   return (
     <Routes>
       <Route index element={<Navigate to={weeks[0].date} replace />} />

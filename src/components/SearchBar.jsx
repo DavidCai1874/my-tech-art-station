@@ -58,12 +58,6 @@ console.log('results:', results);
           }}
           className="flex-1 px-3 py-1 rounded-l bg-gray-700 text-white focus:outline-none"
         />
-        <button
-          type="submit"
-          className="px-4 py-1 rounded-r bg-blue-600 text-white hover:bg-blue-700"
-        >
-          Search
-        </button>
       </form>
       {showDropdown && results.length > 0 && (
         <ul className="absolute left-0 right-0 bg-white text-black rounded shadow mt-1 max-h-60 overflow-y-auto z-50">

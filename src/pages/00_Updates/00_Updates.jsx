@@ -23,7 +23,6 @@ export default function UpdatesPage() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
-  // 控制 year bar 显隐
   const [move, setMove] = useState(true);
   const lastScroll = useRef(0);
 
@@ -32,12 +31,12 @@ export default function UpdatesPage() {
       const current = window.scrollY;
       if (current > 50) {
         if (current > lastScroll.current) {
-          setMove(false); // 向下滚动隐藏
+          setMove(false);
         } else {
-          setMove(true);  // 向上滚动显示
+          setMove(true); 
         }
       } else {
-        setMove(true);    // 回到顶部显示
+        setMove(true); 
       }
       lastScroll.current = current;
     }

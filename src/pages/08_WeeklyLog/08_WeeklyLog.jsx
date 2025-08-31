@@ -70,7 +70,7 @@ export default function WeeklyLog() {
                         : {}
                     }
                   >
-                    <div className="absolute inset-0 z-0 bg-white/60 group-hover:bg-blue-400/40 transition-all duration-300" />
+                    <div className="absolute inset-0 z-0 bg-white/25 group-hover:bg-blue-400/40 transition-all duration-300" />
                     <span className="relative z-10 text-black px-2">
                       {period.label}
                     </span>

@@ -3,10 +3,20 @@ This is the list of what I need to do when a new era comes.
 - Update Era.json
 - Select image for the cover and put in Era _Cover folder
 - Create folder in Era
-- Copy Paste jsx
+- Copy Paste jsx and change things
 - Create md folder
 - Copy and fix date + week of js file (let copilot do it)
 - Create all the mds(use the code)
 - Write the first md
 - Import into Router
 - Check if it works
+
+
+  {
+    "title": "2026",
+    "periods": [
+      { "label": "2026 Fall\nSep - Dec", "path": "202609fall", "image": "" },
+      { "label": "2026 Summer\nMay - Aug", "path": "202605summer", "image": "" },
+      { "label": "2026 Spring\nJan - Apr", "path": "202601spring", "image": "" }
+    ]
+  },

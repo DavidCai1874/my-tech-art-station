@@ -29,11 +29,12 @@ export default function Navbar() {
     <nav className={`my-navbar ${show ? 'show' : 'hide'}`}>
       <div className="flex items-center">
 
-        {/* left side nav */}
-        <div className="flex space-x-8 text-xl font-bold ml-2">
+        {/* left side nav space 10 ml 3*/}
+        <div className="flex space-x-10 text-xl font-bold ml-6">
           <Link to="/">Home</Link>
-          <Link to="/contribute">Contribute</Link>
-          <Link to="/playground">Playground</Link>
+      {/* <Link to="/gallery">Gallery</Link>
+          <Link to="/playground">Playground</Link> */}
+          <Link to="/workinprogress">Work In Progress</Link>
           <Link to="/about">About</Link>
         </div>
 
@@ -41,13 +42,12 @@ export default function Navbar() {
         <div className="flex-1 flex justify-center px-8">
           <SearchBar />
         </div>
-        {/* right side nav */}
-        <div className="flex items-center space-x-6 text-xl font-bold">
+        {/* right side nav mr 2 */}
+        <div className="flex items-center space-x-10 text-xl font-bold mr-5">
           <Link to="/addons">Addons</Link>
           <Link to="/troubleshooting">TroubleShooting</Link>
-          <Link to="/workinprogress">Work In Progress</Link>
+
           <Link to="/weeklylog">Weekly Log</Link>
-          <Link to="/gallery">Gallery</Link>
         </div>
         
       </div>

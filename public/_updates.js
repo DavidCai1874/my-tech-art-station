@@ -1,4 +1,7 @@
 const updates = [
+  { date: "2025-08-31", text: "Added the 2025 section for weekly logs,started doing the addons page." },
+  { date: "2025-08-30", text: "Hide playground and gallery for now, changed the structure, and removed the search button which doesn nothing" },
+  { date: "2025-08-19", text: "Removed 'Contribute' section and changed file structure." },
   { date: "2025-08-17", text: "Added covers for sections on home page. Fixed and finished the update page." },
   { date: "2025-08-16", text: "Added a cover for my summer weekly log, fixed naming conventions, and the search functionality! Also added a few .txt files as my to-do list for updates. P.S. After this update, I decided not to put weekly log updates here anymore; I don't want to clutter this space with repeating 'Weekly log update'." },
   { date: "2025-07-14", text: "Finally fixed weekly logs and successfully embedded an image with PicGo and the GitHub repo in my markdown files!" },
