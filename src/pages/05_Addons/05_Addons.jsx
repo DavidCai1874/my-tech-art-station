@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 
-import mayaImg from './maya_cover.png';
-import blenderImg from './blender_cover.png';
-import generalImg from './general_cover.png';
+import mayaImg from "./maya_cover.png";
+import blenderImg from "./blender_cover.png";
+import generalImg from "./general_cover.png";
 
 const list = [
-  { to: "/maya", img: mayaImg, title: "Maya", desc: (
+  { to: "maya", img: mayaImg, title: "Maya", desc: (
       <>
         Scripts and tools for Autodesk Maya.<br />
         Python, MEL, or C++.<br />
@@ -13,7 +13,7 @@ const list = [
       </>
     )
   },
-  { to: "/blender", img: blenderImg, title: "Blender", desc: (
+  { to: "blender", img: blenderImg, title: "Blender", desc: (
       <>
         Addons and scripts for Blender.<br />
         Python only.<br />
@@ -21,7 +21,7 @@ const list = [
       </>
     )
   },
-  { to: "/general", img: generalImg, title: "General", desc: (
+  { to: "general", img: generalImg, title: "General", desc: (
       <>
         General-purpose scripts and utilities.<br />
         Python, batch, shell, and more.<br />

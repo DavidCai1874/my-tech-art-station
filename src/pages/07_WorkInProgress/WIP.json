@@ -1,5 +1,26 @@
 {
-  "workingOn": [
+  "workingOn": 
+  [
+    {
+      "title": "Building the site",
+      "steps": [
+        "Addon page",
+        "Determine writing styles",
+        "Github addon docs",
+        "Troubleshooting page",
+        "About",
+        "Search function",
+        "README"
+      ]
+    },
+    {
+      "title": "AD's group",
+      "steps": [
+        "Fix bugs",
+        "Add features",
+        "Write docs"
+      ]
+    },
     {
       "title": "Maya Python Tool",
       "steps": [
@@ -11,37 +32,24 @@
       "title": "UE Project",
       "steps": [
         "Blueprint Tut",
+        "Shader Tut",
         "Begin the project"
-      ]
-    },
-    {
-      "title": "Building the site",
-      "steps": [
-        "solve troubleshooting pics",
-        "number them",
-        "do my first troubkleshooting",
-        "do my first addon article",
-        "finish the search bar",
-        "if there's number start with ## for ts and addon articles, search bar can show them",
-        "home",
-        "README"
       ]
     }
   ],
-  "upcoming": [
-    {
-      "title": "unity game + shader",
-      "steps": []
-    },
+  "upcoming": 
+  [
     {
       "title": "Update the website",
       "steps": [
-        "about",
-        "contribute",
         "gallery",
         "playground"
 
       ]
+    },
+    {
+      "title": "unity game + shader",
+      "steps": []
     }
   ]
 }

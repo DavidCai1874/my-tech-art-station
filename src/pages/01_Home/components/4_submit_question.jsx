@@ -7,10 +7,10 @@ export default function ContactSection() {
       <p>
         Have suggestions or want to report an issue? Please reach out to me on the&nbsp;
         <Link
-          to="contribute"
+          to="about"
           className="text-blue-600 hover:text-blue-800 font-semibold"
         >
-          Contribute
+          About
         </Link>
         &nbsp;page!
       </p>
