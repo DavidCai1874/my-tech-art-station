@@ -1,5 +1,13 @@
 [
   {
+    "title": "maya-addon-01",
+    "path": "/src/pages/05_Addons/Maya/mds/maya-addon-01"
+  },
+  {
+    "title": "maya-addon-02",
+    "path": "/src/pages/05_Addons/Maya/mds/maya-addon-02"
+  },
+  {
     "title": "2025-06-01",
     "path": "/weeklylog/2025-06summer/2025-06-01"
   },
