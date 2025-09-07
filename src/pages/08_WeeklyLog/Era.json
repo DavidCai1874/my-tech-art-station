@@ -3,8 +3,8 @@
   {
     "title": "2025",
     "periods": [
-      { "label": "2025 Fall\nSep - Dec", "path": "2025-09fall", "image": "src/pages/08_WeeklyLog/Era/_Covers/2025_09Fall.png" },
-      { "label": "2025 Summer\nJun - Aug", "path": "2025-06summer", "image": "src/pages/08_WeeklyLog/Era/_Covers/2025_06Summer.png" }
+      { "label": "2025 Fall\nSep - Dec", "path": "2025-09fall", "image": "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250907161725.png" },
+      { "label": "2025 Summer\nJun - Aug", "path": "2025-06summer", "image": "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250907161629.png" }
     ]
   }
 ]

@@ -4,23 +4,29 @@
     {
       "title": "Building the site",
       "steps": [
-        "Addon page",
-        "Determine writing styles",
-        "Github addon docs",
-        "Unify the site style with index.css",
-        "Troubleshooting page",
-        "About",
-        "Search function",
-        "README"
       ]
     },
     {
       "title": "AD's group",
       "steps": [
-        "Fix bugs",
-        "Add features",
-        "Write docs"
+        "Check out .usd files"
       ]
+    }
+  ],
+
+
+  
+  "upcoming": 
+  [
+    {
+      "title": "AD's group",
+      "steps": [
+        "Try the animation procedure in both maya and ue5",
+        "Perforce of AD's pc"
+      ]
+    },
+    {
+      "title":"Github re-documentation for existing things"
     },
     {
       "title": "Maya Python Tool",
@@ -36,21 +42,19 @@
         "Shader Tut",
         "Begin the project"
       ]
-    }
-  ],
-  "upcoming": 
-  [
-    {
-      "title": "Update the website",
-      "steps": [
-        "gallery",
-        "playground"
-
-      ]
     },
     {
       "title": "unity game + shader",
       "steps": []
+    },
+    {
+      "title": "Update the website",
+      "steps": [
+        "Unify the site style with index.css",
+        "gallery",
+        "playground",
+        "README"
+      ]
     }
   ]
 }
