@@ -1,6 +1,6 @@
 import { Routes, Route, useParams, Navigate, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import WeeklyLayout from "../../WeeklyLayout";
+import WeeklyLayout from "../WeeklyLayout";
 import ReactMarkdown from "react-markdown";
 import weeks from "./2025_09fall";
 import "../../MarkdownBody.css";
@@ -9,7 +9,7 @@ export default function _2025Fall() {
   return (
     <Routes>
       <Route index element={<Navigate to={weeks[0].date} replace />} />
-      <Route path=":weekDate" element={<WeeklyWeek />} />
+      <Route path=":date" element={<WeeklyWeek />} />
     </Routes>
   );
 }

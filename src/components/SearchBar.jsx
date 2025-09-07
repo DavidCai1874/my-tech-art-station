@@ -23,7 +23,6 @@ export default function SearchBar() {
       return String(item.title).toLowerCase().includes(searchTerm.trim().toLowerCase());
     })
   : [];
-console.log('results:', results);
 
   const handleSearch = (e) => {
     e.preventDefault?.();

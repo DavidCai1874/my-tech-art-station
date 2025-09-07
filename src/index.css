@@ -48,3 +48,9 @@ html, body, #root {
   width: 100%;
   height: 100%;
 }
+
+.markdown-body a {
+  color: #2563eb; /* 蓝色 */
+  text-decoration: underline;
+  font-weight: 500;
+}

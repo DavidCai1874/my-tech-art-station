@@ -1,6 +1,6 @@
 import { Routes, Route, useParams, Navigate, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import WeeklyLayout from "../../WeeklyLayout";
+import WeeklyLayout from "../WeeklyLayout";
 import ReactMarkdown from "react-markdown";
 import weeks from "./2025_06Summer";
 import "../../MarkdownBody.css";

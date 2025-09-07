@@ -4,6 +4,8 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 
 const allTags = Array.from(new Set(mayaAddons.flatMap(a => a.tags)));
 
+
+
 export default function AddonMaya() {
   const { tag } = useParams();
   const navigate = useNavigate();

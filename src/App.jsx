@@ -10,7 +10,7 @@ import Playground from './pages/03_Playground/03_Playground.jsx';
 import About from './pages/04_About/04_About.jsx';
 
 import Addons from './pages/05_Addons/05_Addons_Router.jsx';
-import TroubleShooting from './pages/06_TroubleShooting/06_TroubleShooting.jsx';
+import TroubleShooting from './pages/06_TroubleShooting/06_TroubleShooting_Router.jsx';
 import WorkInProgress from './pages/07_WorkInProgress/07_WorkInProgress.jsx';
 import WeeklyLog from './pages/08_WeeklyLog/08_WeeklyLog_Router.jsx';
 
@@ -28,7 +28,7 @@ export default function App() {
         <Route path="/playground" element={<Playground />} />
         <Route path="/about" element={<About />} />
         <Route path="/addons/*" element={<Addons />} />
-        <Route path="/troubleshooting" element={<TroubleShooting />} />
+        <Route path="/troubleshooting/*" element={<TroubleShooting />} />
         <Route path="/workinprogress" element={<WorkInProgress />} />
         <Route path="/weeklylog/*" element={<WeeklyLog />} />
         <Route path="/gallery" element={<Gallery />} />

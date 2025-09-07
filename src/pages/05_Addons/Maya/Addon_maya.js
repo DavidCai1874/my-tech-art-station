@@ -1,21 +1,21 @@
-import md2024_01 from './mds/maya-addon-01.md?raw';
-import md2024_02 from './mds/maya-addon-02.md?raw';
+import md2024_01 from './mds/Animation/m-a-001.md?raw';
+import md2024_02 from './mds/ProceduralModelling/m-pm-001.md?raw';
 // ...更多 md 文件
 
 const mayaAddons = [
   {
-    id: "maya-addon-01",
+    id: "m-a-001",
     md: md2024_01,
-    name: "Auto Renamer",
-    tags: ["workflow", "rename", "python"],
-    description: "Automatically rename objects in Maya based on custom rules."
+    name: "Animation Blocking Tool",
+    tags: ["animation", "python"],
+    description: "Blocks your animation, blocks your life."
   },
   {
-    id: "maya-addon-02",
+    id: "m-pm-001",
     md: md2024_02,
-    name: "Quick Export",
-    tags: ["export", "python"],
-    description: "Fast batch export for selected objects."
+    name: "Procedural Gear Generator",
+    tags: ["procedural modeling", "python"],
+    description: "Gear up"
   },
   // ...更多插件
 ];

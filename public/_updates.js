@@ -1,5 +1,6 @@
 const updates = [
-  { date: "2025-09-02", text: "Updatedd the WIP with the order of importance, and started working on the addons page." },
+  { date: "2025-09-06", text: "The Addons and Troubleshooting page now has basic functionalities! This will be the place where I put tools and docs for my group." },
+  { date: "2025-09-02", text: "Updated the WIP with the order of importance, and started working on the addons page." },
   { date: "2025-08-31", text: "Added the 2025 section for weekly logs,started doing the addons page." },
   { date: "2025-08-30", text: "Hide playground and gallery for now, changed the structure, and removed the search button which doesn nothing" },
   { date: "2025-08-19", text: "Removed 'Contribute' section and changed file structure." },
