@@ -31,9 +31,10 @@ export default function MayaDetail() {
           </button>
         ))}
       </div>
-      <p className="mb-6 text-gray-700">{addon.description}</p>
       <div className="markdown-body">
-        <ReactMarkdown>{addon.md}</ReactMarkdown>
+        <ReactMarkdown>
+          {addon.md.split("\n").slice(3).join("\n")}
+        </ReactMarkdown>
       </div>
     </div>
   );

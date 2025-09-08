@@ -6,7 +6,6 @@ const unrealIssues = [
     id: "ts-ue-0001",
     md: mdUnreal01,
     name: "Placeholder Issue 1",
-    description: "1"
   },
   // ...更多问题
 ];

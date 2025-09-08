@@ -42,9 +42,8 @@ export default function WorkingOn() {
           </div>
         ))}
       </div>
-      {/* Upcoming Plans 标题 */}
+      {/* Upcoming Plans */}
       <h2 className="font-bold mb-2">Upcoming Plans</h2>
-      {/* upcoming 每个分组一个小色块 */}
       <div className="w-full max-w-2xl flex flex-col gap-6">
         {Object.keys(upcomingGrouped).map(title => (
           <div
