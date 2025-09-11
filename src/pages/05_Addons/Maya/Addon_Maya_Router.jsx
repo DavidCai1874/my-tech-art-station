@@ -1,6 +1,6 @@
 import { Routes, Route, useParams, Navigate } from "react-router-dom";
 import AddonMaya from "./Addon_Maya.jsx";
-import MarkdownPage from "./mds/Markdown_Page.jsx";
+import MarkdownPage from "./Addon_Maya_MD.jsx";
 // ...其他import...
 
 export default function AddonMayaRouter() {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import mayaAddons from "./Addon_maya.js";
+import mayaAddons from "./Addon_Maya.js";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 const allTags = Array.from(new Set(mayaAddons.flatMap(a => a.tags)));
@@ -45,16 +45,23 @@ export default function AddonMaya() {
       <div className="grid grid-cols-3 gap-8">
         {filteredAddons.map(addon => (
           <div key={addon.id} className="bg-white rounded-xl shadow border p-6 flex flex-col">
-            <h2 className="text-xl font-bold mb-2">{addon.name}</h2>
-            <div className="mb-2 text-sm text-gray-500">
+            <h2 className="text-xl font-bold mb-2">
+              <Link
+                to={`/addons/maya/${addon.id}`}
+                style={{ textDecoration: "none" }}
+              >
+                {addon.name}
+              </Link>
+            </h2>
+            <div className="text-xl text-gray-500 mb-2 ">#{addon.id.toUpperCase()}</div>
+            <div className="mb-4 text-sm text-gray-500">
               {addon.tags.map(tag => (
                 <span key={tag} className="inline-block mr-2 px-2 py-0.5 rounded bg-gray-100 text-gray-700">{tag}</span>
               ))}
             </div>
-            <p className="mb-4 text-gray-700">{addon.description}</p>
             <Link
               to={`/addons/maya/${addon.id}`}
-              className="mt-auto px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 text-center"
+              className="mt-auto px-4 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 text-center"
             >
               View Details
             </Link>

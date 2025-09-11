@@ -1,21 +1,5 @@
 [
   {
-    "title": "Animation Blocking tool",
-    "path": "/src/pages/05_Addons/Maya/mds/Animation/m-a-001"
-  },
-  {
-    "title": "Procedural Gear Generator",
-    "path": "/src/pages/05_Addons/Maya/mds/ProceduralModelling/m-pm-001"
-  },
-  {
-    "title": "ts-m-0001",
-    "path": "/src/pages/06_TroubleShooting/Maya/mds/ts-m-0001"
-  },
-  {
-    "title": "Title",
-    "path": "/src/pages/06_TroubleShooting/Unreal/mds/ts-ue-0001"
-  },
-  {
     "title": "2025-06-01",
     "path": "/weeklylog/2025-06summer/2025-06-01"
   },

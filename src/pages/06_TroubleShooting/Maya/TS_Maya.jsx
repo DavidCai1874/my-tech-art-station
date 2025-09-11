@@ -1,16 +1,16 @@
-import unrealIssues from "./TS_Unreal.js";
+import mayaIssues from "./TS_Maya.js";
 import { Link } from "react-router-dom";
 
-export default function TSUnreal() {
+export default function TSMaya() {
   return (
     <div className="max-w-7xl mx-auto py-12">
-      <h1 className="text-3xl font-bold mb-6">Unreal Engine Trouble Shooting</h1>
+      <h1 className="text-3xl font-bold mb-6">Maya Trouble Shooting</h1>
       <div className="grid grid-cols-3 gap-8">
-        {unrealIssues.map(issue => (
+        {mayaIssues.map(issue => (
           <div key={issue.id} className="bg-white rounded-xl shadow border p-6 flex flex-col">
             <h2 className="text-xl font-bold mb-2">
               <Link
-                to={`/troubleshooting/unreal/${issue.id}`}
+                to={`/troubleshooting/maya/${issue.id}`}
                 style={{ textDecoration: "none" }}
               >
                 {issue.title}

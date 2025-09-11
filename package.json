@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "generate-index": "node generateSearchIndex.js",
-    "build": "npm run generate-index && vite build",
+    "allblue": "node _generateAll.js",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

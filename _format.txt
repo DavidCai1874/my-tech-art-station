@@ -1,8 +1,0 @@
-Mardown:
-Title with #
-Others all normal
-
-
-For weekly log:
-yyyy_mmSeason for era and jsx + js
-yyyy-mm-dd for mds

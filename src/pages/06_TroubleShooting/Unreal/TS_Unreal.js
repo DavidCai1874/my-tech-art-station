@@ -1,13 +1,11 @@
-import mdUnreal01 from './mds/ts-ue-0001.md?raw';
-// ...更多 md 文件
+import ts_ue_0001 from './mds/ts-ue-0001.md?raw';
 
-const unrealIssues = [
+// Auto-generated file for Unreal
+const TS_Unreal = [
   {
+    title: "Title",
     id: "ts-ue-0001",
-    md: mdUnreal01,
-    name: "Placeholder Issue 1",
-  },
-  // ...更多问题
+    md: ts_ue_0001
+  }
 ];
-
-export default unrealIssues;
+export default TS_Unreal;

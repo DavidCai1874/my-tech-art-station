@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 
 import mayaImg from "./maya_cover.png";
-import blenderImg from "./blender_cover.png";
-import unrealImg from "./unreal_cover.png"; // 你需要准备一张 Unreal Engine 的图片
+import unrealImg from "./unreal_cover.png";
+import pipelineImg from "./pipeline_cover.png";
 
 const list = [
   //{ to: "blender", img: blenderImg, title: "Blender" },
   { to: "maya", img: mayaImg, title: "Maya" },
   { to: "unreal", img: unrealImg, title: "Unreal Engine" },
+  { to: "pipeline", img: pipelineImg, title: "Pipeline" },
 ];
 
 export default function TroubleShooting() {

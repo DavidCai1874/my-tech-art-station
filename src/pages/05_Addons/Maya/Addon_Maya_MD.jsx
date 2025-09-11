@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import mayaAddons from "../Addon_maya.js";
+import mayaAddons from "./Addon_Maya.js";
 import ReactMarkdown from "react-markdown";
 
 export default function MayaDetail() {
@@ -31,6 +31,7 @@ export default function MayaDetail() {
           </button>
         ))}
       </div>
+      <div className="text-xl text-gray-700 mb-4 ">#{addon.id.toUpperCase()}</div>
       <div className="markdown-body">
         <ReactMarkdown>
           {addon.md.split("\n").slice(3).join("\n")}
