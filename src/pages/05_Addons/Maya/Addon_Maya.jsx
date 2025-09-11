@@ -1,5 +1,5 @@
 import { useState } from "react";
-import mayaAddons from "./Addon_Maya.js";
+import mayaAddons from "./Addon_Maya";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 const allTags = Array.from(new Set(mayaAddons.flatMap(a => a.tags)));
