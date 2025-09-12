@@ -7,7 +7,8 @@ This is what I should check every Sunday / every time update my website:
 - _update.js (If it's not a weekly log update)
 
 - Run searchbar code
-    - node generateSearchIndex.js
+    - npm run allblue
+    - node _generateAll.js
 
 - Commit & Push
 

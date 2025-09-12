@@ -1,4 +1,7 @@
 const updates = [
+  { date: "2025-09-11", text: "Did the Maya section for ts, and wrote my first doc!" },
+  { date: "2025-09-10", text: "Added a new section for Pipeline Trouble Shooting. Adjusted the layout of issues. Made two codes to generate addon and ts issues to certain .js files" },
+  { date: "2025-09-09", text: "Used slicing to fixed the problem that title shows twice, adjusted the # and tags' positions. Removed descriptions for addons and ts" },
   { date: "2025-09-07", text: "Fixed Github Page 404 problem.And changed the way to show cover image of the weekly log page from local image to link." },
   { date: "2025-09-06", text: "The Addons and Troubleshooting page now has basic functionalities! This will be the place where I put tools and docs for my group." },
   { date: "2025-09-02", text: "Updated the WIP with the order of importance, and started working on the addons page." },
