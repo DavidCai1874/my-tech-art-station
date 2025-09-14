@@ -3,20 +3,21 @@ import { useEffect, useState } from "react";
 import WeeklyLayout from "../WeeklyLayout";
 import ReactMarkdown from "react-markdown";
 import weeks from "./2025_09fall";
-import "../../MarkdownBody.css";
 
 export default function _2025Fall() {
   return (
     <Routes>
+      {/* Redirect to the first week's date by default */}
       <Route index element={<Navigate to={weeks[0].date} replace />} />
-      <Route path=":date" element={<WeeklyWeek />} />
+      {/* Route for displaying a specific week */}
+      <Route path=":weekDate" element={<WeeklyWeek />} />
     </Routes>
   );
 }
 
 function WeeklyWeek() {
-  const { weekDate } = useParams();
-  const week = weeks.find(w => w.date === weekDate) || weeks[0];
+  const { weekDate } = useParams(); // Get the week date from the URL parameters
+  const week = weeks.find(w => w.date === weekDate) || weeks[0]; // Find the corresponding week data
   const [md, setMd] = useState("");
 
   useEffect(() => {

@@ -9,7 +9,8 @@
     {
       "title": "AD's group",
       "steps": [
-        "Check out .usd files"
+        "Check out Maya Unreal Live Link",
+        "Perforce version control"
       ]
     }
   ],

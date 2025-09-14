@@ -6,6 +6,7 @@ import './index.css';
 
 
 // 这就是个链接app和网页的水管
+// The code that links the app to the webpage
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

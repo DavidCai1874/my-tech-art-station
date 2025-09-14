@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  assetsInclude: ['**/*.md'],
+  assetsInclude: ['**/*.md'], //make mardown files avalible to use in code
   base: '/my-tech-art-station/',
   server: {
     historyApiFallback: true,

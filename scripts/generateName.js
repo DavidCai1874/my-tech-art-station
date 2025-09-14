@@ -11,3 +11,5 @@ function run(script)
 run("./scripts/generateTS.js");
 run("./scripts/generateAddons.js");
 //run("./scripts/generateSearchIndexWeeklyLog.js");
+
+// 以后还可以加更多

@@ -1,9 +1,8 @@
-// Script to generate a search index for markdown content
+// generateSearchIndex.js
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-// Directories to scan for markdown files
 const contentDirs = [
   path.join(process.cwd(), 'src/pages/05_Addons'),
   path.join(process.cwd(), 'src/pages/06_TroubleShooting'),
@@ -11,17 +10,16 @@ const contentDirs = [
 ];
 const output = [];
 
-// Format WeeklyLog paths for search index
 function formatWeeklyLogPath(relativePath) {
   let p = relativePath;
 
-  // Replace WeeklyLog path prefix
+  // 替换 WeeklyLog 路径前缀
   p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, '/weeklylog/');
 
-  // Remove /mds/ from path
+  // 去掉 /mds/
   p = p.replace(/\/mds\//gi, '/');
 
-  // Convert folder names like 2025_06Summer to 2025-06summer
+  // 把 2025_06Summer -> 2025-06summer
   p = p.replace(/\/([^/]+)/g, (match, folder) => {
     return '/' + folder.replace(/_/g, '-').toLowerCase();
   });
@@ -29,21 +27,17 @@ function formatWeeklyLogPath(relativePath) {
   return p;
 }
 
-// Recursively walk through directories and process markdown files
 function walk(dir) {
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
     const fullPath = path.join(dir, file);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {
-      // If it's a directory, walk into it
       walk(fullPath);
     } else if (file.endsWith('.md')) {
-      // If it's a markdown file, process it
       const fileContent = fs.readFileSync(fullPath, 'utf-8');
       const { data } = matter(fileContent);
 
-      // Try to get title from frontmatter, fallback to first markdown header or filename
       let title = data.title;
       if (!title) {
         const match = fileContent.match(/^#\s+(.+)$/m);
@@ -54,16 +48,14 @@ function walk(dir) {
         }
       }
 
-      // Get relative path for the file
       let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
       relativePath = relativePath.replace('.md', '');
 
-      // Special formatting for WeeklyLog files
+      // deal with WeeklyLog
       if (relativePath.includes('/src/pages/08_WeeklyLog/Era/')) {
         relativePath = formatWeeklyLogPath(relativePath);
       }
 
-      // Add entry to the search index
       output.push({
         title: title,
         path: relativePath,
@@ -72,9 +64,7 @@ function walk(dir) {
   });
 }
 
-// Walk through all content directories
 contentDirs.forEach(walk);
 
-// Write the search index to a JSON file
 fs.writeFileSync('./public/searchIndex.json', JSON.stringify(output, null, 2));
 console.log('searchIndex.json generated!');

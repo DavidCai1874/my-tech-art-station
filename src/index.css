@@ -4,7 +4,7 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  color: #01131a; /* Darker text color */
+  color: #000000; /* black */
   background-color: #f8f5ed; /* Lighter background color */
 
   padding-top: 4rem; /* NavBar Height */
@@ -50,7 +50,33 @@ html, body, #root {
 }
 
 .markdown-body a {
-  color: #2563eb; /* 蓝色 */
+  color: #2563eb;
   text-decoration: underline;
   font-weight: 500;
+} /* Underline of links */
+
+
+.markdown-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #000000;
+}
+
+.markdown-body p {
+  font-size: 1.3rem;     
+  color: #000000;       
+  margin: 1.2em 0;
+}
+
+.markdown-body img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+
+.markdown-body ul,
+.markdown-body ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
 }

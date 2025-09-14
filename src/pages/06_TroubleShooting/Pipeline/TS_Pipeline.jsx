@@ -10,7 +10,7 @@ export default function TSPipeline() {
           <div key={issue.id} className="bg-white rounded-xl shadow border p-6 flex flex-col">
             <h2 className="text-xl font-bold mb-2">
               <Link
-                to={`/troubleshooting/unreal/${issue.id}`}
+                to={`/troubleshooting/pipeline/${issue.id}`}
                 style={{ textDecoration: "none" }}
               >
                 {issue.title}

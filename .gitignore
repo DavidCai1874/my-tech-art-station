@@ -1,3 +1,5 @@
+#Things to ignore when committing to github
+
 # Logs
 logs
 *.log

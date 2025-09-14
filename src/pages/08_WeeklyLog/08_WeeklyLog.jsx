@@ -9,6 +9,7 @@ const COLORS = ["#e1c186ff", "#a3c9cfff" ];
 export default function WeeklyLog() {
   const [bgColor, setBgColor] = useState(COLORS[0]);
 
+  //listen to the scroll event to change background color
   useEffect(() => {
     function onScroll() {
       const scrollTop = window.scrollY;
@@ -28,6 +29,7 @@ export default function WeeklyLog() {
       className="p-8 transition-colors duration-500"
       style={{ background: bgColor, minHeight: "100vh" }}
     >
+      {/* Header Section */}
       <div className="flex justify-center mt-10 mb-8">
         <div
           className="px-18 py-10 rounded-2xl shadow-[0_0_6px_4px_#DEAA79] bg-[#FFE6A9] flex flex-col items-center"
@@ -70,8 +72,10 @@ export default function WeeklyLog() {
                         : {}
                     }
                   >
+                    {/*Hovering effect */}
                     <div className="absolute inset-0 z-0 bg-white/25 group-hover:bg-blue-400/40 transition-all duration-300" />
                     <span className="relative z-10 text-black px-2">
+                      {/*Era labels*/}
                       {period.label}
                     </span>
                   </Link>
