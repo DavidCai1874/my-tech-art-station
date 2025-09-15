@@ -22,7 +22,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Run custom script
-        run: node _generateAll.js
+        run: npm run allblue
 
       - name: Build project
         run: npm run build
