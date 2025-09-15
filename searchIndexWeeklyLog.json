@@ -62,25 +62,5 @@
   {
     "title": "2025-09-14",
     "path": "/weeklylog/2025-09fall/2025-09-14"
-  },
-  {
-    "title": "Code Shader Pack 1",
-    "path": "addons/blender/b-s-001",
-    "id": "B-S-001"
-  },
-  {
-    "title": "Animation Blocking tool",
-    "path": "addons/maya/m-a-001",
-    "id": "M-A-001"
-  },
-  {
-    "title": "Procedural Gear Generator",
-    "path": "addons/maya/m-pm-001",
-    "id": "M-PM-001"
-  },
-  {
-    "title": "How To Import Animation From Maya To Unreal Engine 5",
-    "path": "/troubleshooting/pipeline/ts-p-0001",
-    "id": "TS-P-0001"
   }
 ]
