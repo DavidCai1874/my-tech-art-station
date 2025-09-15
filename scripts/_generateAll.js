@@ -8,6 +8,10 @@ function run(script)
   execSync(`node ${script}`, { stdio: "inherit" }); //use node to run the script
 }
 
+run("./scripts/markdownFormat.js");
 run("./scripts/generateTS.js");
 run("./scripts/generateAddons.js");
-//run("./scripts/generateSearchIndexWeeklyLog.js");
+run("./scripts/generateSearchIndexTS.js");
+run("./scripts/generateSearchIndexWeeklyLog.js");
+run("./scripts/generateSearchIndexAddon.js");
+run("./scripts/mergeSearchIndex.js");

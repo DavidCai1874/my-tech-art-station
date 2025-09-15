@@ -1,49 +1,44 @@
-// Script to generate a search index for markdown content
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-// Directories to scan for markdown files
-const contentDirs = [
-  path.join(process.cwd(), 'src/pages/05_Addons'),
-  path.join(process.cwd(), 'src/pages/06_TroubleShooting'),
-  path.join(process.cwd(), 'src/pages/08_WeeklyLog'),
-];
+// set the directory to src/pages/06_TroubleShooting
+const contentDir = path.join(process.cwd(), 'src/pages/06_TroubleShooting');
 const output = [];
 
-// Format WeeklyLog paths for search index
-function formatWeeklyLogPath(relativePath) {
+// format path for TroubleShooting markdown files
+function formatTSPath(relativePath) {
   let p = relativePath;
-
-  // Replace WeeklyLog path prefix
-  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, '/weeklylog/');
-
-  // Remove /mds/ from path
+  // remove /src/pages/06_TroubleShooting
+  p = p.replace(/^\/?src\/pages\/06_TroubleShooting\//i, '/troubleshooting/');
+  // remove /mds/
   p = p.replace(/\/mds\//gi, '/');
-
-  // Convert folder names like 2025_06Summer to 2025-06summer
-  p = p.replace(/\/([^/]+)/g, (match, folder) => {
-    return '/' + folder.replace(/_/g, '-').toLowerCase();
-  });
-
+  // all to lowercase
+  p = p.toLowerCase();
+  // remove .md extension
+  p = p.replace(/\.md$/, '');
   return p;
 }
 
-// Recursively walk through directories and process markdown files
+// get id from filename (last part, uppercased)
+function getIdFromPath(formattedPath) {
+  const parts = formattedPath.split('/');
+  const last = parts[parts.length - 1];
+  return last.toUpperCase();
+}
+
+// recursively walk through all files in the directory
 function walk(dir) {
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
     const fullPath = path.join(dir, file);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {
-      // If it's a directory, walk into it
       walk(fullPath);
     } else if (file.endsWith('.md')) {
-      // If it's a markdown file, process it
       const fileContent = fs.readFileSync(fullPath, 'utf-8');
       const { data } = matter(fileContent);
 
-      // Try to get title from frontmatter, fallback to first markdown header or filename
       let title = data.title;
       if (!title) {
         const match = fileContent.match(/^#\s+(.+)$/m);
@@ -54,27 +49,20 @@ function walk(dir) {
         }
       }
 
-      // Get relative path for the file
       let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
-      relativePath = relativePath.replace('.md', '');
+      let formattedPath = formatTSPath(relativePath);
+      let id = getIdFromPath(formattedPath);
 
-      // Special formatting for WeeklyLog files
-      if (relativePath.includes('/src/pages/08_WeeklyLog/Era/')) {
-        relativePath = formatWeeklyLogPath(relativePath);
-      }
-
-      // Add entry to the search index
       output.push({
         title: title,
-        path: relativePath,
+        path: formattedPath,
+        id: id
       });
     }
   });
 }
 
-// Walk through all content directories
-contentDirs.forEach(walk);
+walk(contentDir);
 
-// Write the search index to a JSON file
-fs.writeFileSync('./public/searchIndex.json', JSON.stringify(output, null, 2));
-console.log('searchIndex.json generated!');
+fs.writeFileSync('./public/searchIndexTS.json', JSON.stringify(output, null, 2));
+console.log('searchIndexTS.json generated!');

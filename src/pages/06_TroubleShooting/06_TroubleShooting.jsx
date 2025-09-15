@@ -5,12 +5,14 @@ import mayaImg from "./maya_cover.png";
 import unrealImg from "./unreal_cover.png";
 import pipelineImg from "./pipeline_cover.png";
 import blenderImg from "./blender_cover.png";
+import generalImg from "./general_cover.png";
 
 const list = [
   { to: "maya", img: mayaImg, title: "Maya" },
   { to: "unreal", img: unrealImg, title: "Unreal Engine" },
   { to: "pipeline", img: pipelineImg, title: "Pipeline" },
   { to: "blender", img: blenderImg, title: "Blender" },
+  { to: "general", img: generalImg, title: "General" }
 ];
 
 export default function TroubleShooting() {
@@ -20,7 +22,7 @@ export default function TroubleShooting() {
         {/* Page title */}
         <h1 className="font-bold mt-14 mb-6 ml-2">TroubleShooting</h1>
         <p className="text-sm text-gray-600 ml-2 mb-2">
-          I’ll deal with it after my snack.
+          I’ll deal with it after my snack, I promise.
         </p>
         {/* Grid, 3 per row */}
         <div className="grid grid-cols-3 gap-20 w-full mt-10">

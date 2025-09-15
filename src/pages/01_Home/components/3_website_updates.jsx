@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import updates from '../../../../public/_updates.js';
+import updates from '../../00_Updates/_updates.js';
 
 export default function UpdatesSection() {
   const latestUpdates = updates.slice(0, 10);

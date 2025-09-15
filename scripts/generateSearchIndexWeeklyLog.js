@@ -61,5 +61,5 @@ function walk(dir) {
 
 walk(contentDir);
 
-fs.writeFileSync('./public/searchIndex.json', JSON.stringify(output, null, 2));
+fs.writeFileSync('./public/searchIndexWeeklyLog.json', JSON.stringify(output, null, 2));
 console.log('searchIndexWeeklyLog.json generated!');

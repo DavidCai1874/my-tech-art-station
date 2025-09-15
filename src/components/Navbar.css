@@ -1,3 +1,4 @@
+/* main navbar container styles */
 .my-navbar {
   background-color: #052634;
   padding: 1rem;
@@ -10,19 +11,24 @@
   box-shadow: 0 4px 9px rgba(1, 10, 28, 0.131);
 }
 
+/* show navbar */
 .my-navbar.show {
   transform: translateY(0);
 }
 
+/* hide navbar */
 .my-navbar.hide {
   transform: translateY(-100%);
 }
 
+/* navbar link styles */
 .my-navbar a {
   font-weight: 500;
   color: #8DD8FF;
   text-decoration: inherit;
 }
+
+/* navbar link hover effect */
 .my-navbar a:hover {
   color: #BBFBFF;
 }

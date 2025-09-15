@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "allblue": "node _generateAll.js",
+    "allblue": "node ./scripts/_generateAll.js",
     "blue": "node ./scripts/generateName.js",
     "build": "vite build",
     "lint": "eslint .",

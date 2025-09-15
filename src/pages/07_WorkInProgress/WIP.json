@@ -7,6 +7,9 @@
       ]
     },
     {
+      "title":"Github re-documentation for existing addons"
+    },
+    {
       "title": "AD's group",
       "steps": [
         "Check out Maya Unreal Live Link",
@@ -25,9 +28,6 @@
         "Try the animation procedure in both maya and ue5",
         "Perforce of AD's pc"
       ]
-    },
-    {
-      "title":"Github re-documentation for existing things"
     },
     {
       "title": "Maya Python Tool",

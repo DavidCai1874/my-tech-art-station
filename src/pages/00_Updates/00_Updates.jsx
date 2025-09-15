@@ -1,4 +1,4 @@
-import updates from '../../../public/_updates.js'; // Import updates data
+import updates from './_updates.js'; // Import updates data
 import { useRef, useState, useEffect } from 'react';
 
 export default function UpdatesPage() {

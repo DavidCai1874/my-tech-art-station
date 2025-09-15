@@ -1,32 +1,11 @@
-// generateSearchIndex.js
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const contentDirs = [
-  path.join(process.cwd(), 'src/pages/05_Addons'),
-  path.join(process.cwd(), 'src/pages/06_TroubleShooting'),
-  path.join(process.cwd(), 'src/pages/08_WeeklyLog'),
-];
+const contentDir = path.join(process.cwd(), 'src/pages/05_Addons');
 const output = [];
 
-function formatWeeklyLogPath(relativePath) {
-  let p = relativePath;
-
-  // 替换 WeeklyLog 路径前缀
-  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, '/weeklylog/');
-
-  // 去掉 /mds/
-  p = p.replace(/\/mds\//gi, '/');
-
-  // 把 2025_06Summer -> 2025-06summer
-  p = p.replace(/\/([^/]+)/g, (match, folder) => {
-    return '/' + folder.replace(/_/g, '-').toLowerCase();
-  });
-
-  return p;
-}
-
+// recursively walk through all files in the directory
 function walk(dir) {
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
@@ -48,23 +27,38 @@ function walk(dir) {
         }
       }
 
+      // get relative path from project root
       let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
-      relativePath = relativePath.replace('.md', '');
 
-      // deal with WeeklyLog
-      if (relativePath.includes('/src/pages/08_WeeklyLog/Era/')) {
-        relativePath = formatWeeklyLogPath(relativePath);
-      }
+      // format path: replace /src/pages/05_Addons/ with addons/
+      let formattedPath = relativePath.replace(/^\/?src\/pages\/05_Addons\//, 'addons/');
+
+      // extract tool name (maya, blender, etc.)
+      const toolMatch = formattedPath.match(/^addons\/([^/]+)\/mds\//i);
+      const tool = toolMatch ? toolMatch[1].toLowerCase() : "";
+
+      // replace everything between addons/ and the filename with tool name
+      formattedPath = formattedPath.replace(
+        /^addons\/[^/]+\/mds\/[^/]+\/([^/]+)\.md$/,
+        `addons/${tool}/$1`
+      );
+
+      // remove .md extension if still present
+      formattedPath = formattedPath.replace(/\.md$/, '');
+
+      // get id from filename (without extension, uppercased)
+      let id = path.basename(file, '.md').toUpperCase();
 
       output.push({
         title: title,
-        path: relativePath,
+        path: formattedPath,
+        id: id
       });
     }
   });
 }
 
-contentDirs.forEach(walk);
+walk(contentDir);
 
-fs.writeFileSync('./public/searchIndex.json', JSON.stringify(output, null, 2));
-console.log('searchIndex.json generated!');
+fs.writeFileSync('./public/searchIndexAddon.json', JSON.stringify(output, null, 2));
+console.log('searchIndexAddon.json generated!');

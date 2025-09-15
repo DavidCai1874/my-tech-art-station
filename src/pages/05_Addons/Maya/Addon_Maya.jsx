@@ -19,10 +19,16 @@ export default function AddonMaya() {
     navigate(t ? `/addons/maya/tag/${t}` : "/addons/maya");
   };
 
-  // Filter the addons list by the selected tag, or show all if no filter
-  const filteredAddons = filter
-    ? mayaAddons.filter(a => a.tags.includes(filter))
-    : mayaAddons;
+  // Filter and sort the addons list by the selected tag, or show all if no filter
+  const filteredAddons = (
+    filter
+      ? mayaAddons.filter(a => a.tags.includes(filter))
+      : mayaAddons
+  ).slice().sort((a, b) => {
+    const cmp = b.date.localeCompare(a.date);
+    if (cmp !== 0) return cmp;
+    return a.id.localeCompare(b.id); // same date, sort by id
+  });
 
   return (
     <div className="max-w-7xl mx-auto py-12">
@@ -62,8 +68,11 @@ export default function AddonMaya() {
                 {addon.name}
               </Link>
             </h2>
-            {/* Addon ID */}
-            <div className="text-xl text-gray-500 mb-2 ">#{addon.id.toUpperCase()}</div>
+            {/* Addon ID and date */}
+            <div className="flex justify-between items-center text-xl text-gray-500 mb-2">
+              <span>#{addon.id.toUpperCase()}</span>
+              <span className="text-sm text-gray-400">{addon.date}</span>
+            </div>
             {/* Addon tags */}
             <div className="mb-4 text-sm text-gray-500">
               {addon.tags.map(tag => (

@@ -1,12 +1,13 @@
 import { Routes, Route, useParams, Navigate } from "react-router-dom";
-import Maya from "./TS_Maya.jsx";
+import Pipeline from "./TS_Maya.jsx";
 import MarkdownPage from "./TS_Maya_MD.jsx";
-// ...其他import...
 
-export default function MayaRouter() {
+export default function TSPipelineRouter() {
   return (
     <Routes>
-      <Route index element={<Maya />} />
+      {/* Default route, show the list of articles */}
+      <Route index element={<Pipeline />} />
+      {/* Show markdown page based on ID */}
       <Route path=":issueId" element={<MarkdownPage />} />
     </Routes>
   );

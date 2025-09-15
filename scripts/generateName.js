@@ -10,6 +10,5 @@ function run(script)
 
 run("./scripts/generateTS.js");
 run("./scripts/generateAddons.js");
-//run("./scripts/generateSearchIndexWeeklyLog.js");
-
-// 以后还可以加更多
+// generates the TS and Addons data files including name, date, id, tags, etc
+// npm run blue
