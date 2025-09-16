@@ -1,8 +1,18 @@
 [
   {
-    "title": "Code Shader Pack 1",
+    "title": "Viewport And Render Visibility Sync Addon",
+    "path": "addons/blender/b-c-001",
+    "id": "B-C-001"
+  },
+  {
+    "title": "Shader Library 1",
     "path": "addons/blender/b-s-001",
     "id": "B-S-001"
+  },
+  {
+    "title": "Watercolor Shader",
+    "path": "addons/blender/b-s-002",
+    "id": "B-S-002"
   },
   {
     "title": "Animation Blocking tool",

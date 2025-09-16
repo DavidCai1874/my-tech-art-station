@@ -1,72 +1,82 @@
 [
   {
     "title": "2025-06-01",
-    "path": "/weeklylog/2025-06summer/2025-06-01"
+    "path": "weeklylog/2025-06summer/2025-06-01"
   },
   {
     "title": "2025-06-08",
-    "path": "/weeklylog/2025-06summer/2025-06-08"
+    "path": "weeklylog/2025-06summer/2025-06-08"
   },
   {
     "title": "2025-06-15",
-    "path": "/weeklylog/2025-06summer/2025-06-15"
+    "path": "weeklylog/2025-06summer/2025-06-15"
   },
   {
     "title": "2025-06-22",
-    "path": "/weeklylog/2025-06summer/2025-06-22"
+    "path": "weeklylog/2025-06summer/2025-06-22"
   },
   {
     "title": "2025-06-29",
-    "path": "/weeklylog/2025-06summer/2025-06-29"
+    "path": "weeklylog/2025-06summer/2025-06-29"
   },
   {
     "title": "2025-07-06",
-    "path": "/weeklylog/2025-06summer/2025-07-06"
+    "path": "weeklylog/2025-06summer/2025-07-06"
   },
   {
     "title": "2025-07-13",
-    "path": "/weeklylog/2025-06summer/2025-07-13"
+    "path": "weeklylog/2025-06summer/2025-07-13"
   },
   {
     "title": "2025-07-20",
-    "path": "/weeklylog/2025-06summer/2025-07-20"
+    "path": "weeklylog/2025-06summer/2025-07-20"
   },
   {
     "title": "2025-07-27",
-    "path": "/weeklylog/2025-06summer/2025-07-27"
+    "path": "weeklylog/2025-06summer/2025-07-27"
   },
   {
     "title": "2025-08-03",
-    "path": "/weeklylog/2025-06summer/2025-08-03"
+    "path": "weeklylog/2025-06summer/2025-08-03"
   },
   {
     "title": "2025-08-10",
-    "path": "/weeklylog/2025-06summer/2025-08-10"
+    "path": "weeklylog/2025-06summer/2025-08-10"
   },
   {
     "title": "2025-08-17",
-    "path": "/weeklylog/2025-06summer/2025-08-17"
+    "path": "weeklylog/2025-06summer/2025-08-17"
   },
   {
     "title": "2025-08-24",
-    "path": "/weeklylog/2025-06summer/2025-08-24"
+    "path": "weeklylog/2025-06summer/2025-08-24"
   },
   {
     "title": "2025-08-31",
-    "path": "/weeklylog/2025-06summer/2025-08-31"
+    "path": "weeklylog/2025-06summer/2025-08-31"
   },
   {
     "title": "2025-09-07",
-    "path": "/weeklylog/2025-09fall/2025-09-07"
+    "path": "weeklylog/2025-09fall/2025-09-07"
   },
   {
     "title": "2025-09-14",
-    "path": "/weeklylog/2025-09fall/2025-09-14"
+    "path": "weeklylog/2025-09fall/2025-09-14"
   },
   {
-    "title": "Code Shader Pack 1",
+    "title": "Viewport And Render Visibility Sync Addon",
+    "path": "addons/blender/b-c-001",
+    "id": "B-C-001"
+  },
+  {
+    "title": "Shader Library 1",
     "path": "addons/blender/b-s-001",
     "id": "B-S-001"
+  },
+  {
+    "title": "Watercolor Shader",
+    "path": "addons/blender/b-s-002",
+    "id": "B-S-002"
   },
   {
     "title": "Animation Blocking tool",
@@ -79,8 +89,23 @@
     "id": "M-PM-001"
   },
   {
+    "title": "What If I Only Keyframed Viewport Visibility In Blender",
+    "path": "troubleshooting/blender/ts-b-0001",
+    "id": "TS-B-0001"
+  },
+  {
+    "title": "How Do I Organize My Articles For This Website",
+    "path": "troubleshooting/general/ts-g-0001",
+    "id": "TS-G-0001"
+  },
+  {
+    "title": "Github Page 404 Problem",
+    "path": "troubleshooting/general/ts-g-0002",
+    "id": "TS-G-0002"
+  },
+  {
     "title": "How To Import Animation From Maya To Unreal Engine 5",
-    "path": "/troubleshooting/pipeline/ts-p-0001",
+    "path": "troubleshooting/pipeline/ts-p-0001",
     "id": "TS-P-0001"
   }
 ]
