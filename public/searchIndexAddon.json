@@ -1,17 +1,27 @@
 [
   {
-    "title": "Code Shader Pack 1",
-    "path": "addons/blender/b-s-001",
+    "title": "Viewport And Render Visibility Sync Addon",
+    "path": "/addons/Blender/mds/Camera/b-c-001",
+    "id": "B-C-001"
+  },
+  {
+    "title": "Shader Library 1",
+    "path": "/addons/Blender/mds/Shader/b-s-001",
     "id": "B-S-001"
   },
   {
+    "title": "Watercolor Shader",
+    "path": "/addons/Blender/mds/Shader/b-s-002",
+    "id": "B-S-002"
+  },
+  {
     "title": "Animation Blocking tool",
-    "path": "addons/maya/m-a-001",
+    "path": "/addons/Maya/mds/Animation/m-a-001",
     "id": "M-A-001"
   },
   {
     "title": "Procedural Gear Generator",
-    "path": "addons/maya/m-pm-001",
+    "path": "/addons/Maya/mds/ProceduralModelling/m-pm-001",
     "id": "M-PM-001"
   }
 ]

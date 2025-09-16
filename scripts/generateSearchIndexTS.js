@@ -10,7 +10,7 @@ const output = [];
 function formatTSPath(relativePath) {
   let p = relativePath;
   // remove /src/pages/06_TroubleShooting
-  p = p.replace(/^\/?src\/pages\/06_TroubleShooting\//i, '/troubleshooting/');
+  p = p.replace(/^\/?src\/pages\/06_TroubleShooting\//i, 'troubleshooting/');
   // remove /mds/
   p = p.replace(/\/mds\//gi, '/');
   // all to lowercase

@@ -9,7 +9,7 @@ function formatWeeklyLogPath(relativePath) {
   let p = relativePath;
 
   // 替换 WeeklyLog 路径前缀
-  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, '/weeklylog/');
+  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, 'weeklylog/');
 
   // 去掉 /mds/
   p = p.replace(/\/mds\//gi, '/');

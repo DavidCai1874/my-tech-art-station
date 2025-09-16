@@ -8,6 +8,7 @@ function run(script)
   execSync(`node ${script}`, { stdio: "inherit" }); //use node to run the script
 }
 
+run("./scripts/markdownFormat.js");
 run("./scripts/generateTS.js");
 run("./scripts/generateAddons.js");
 // generates the TS and Addons data files including name, date, id, tags, etc

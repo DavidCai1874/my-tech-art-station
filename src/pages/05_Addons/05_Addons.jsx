@@ -14,8 +14,7 @@ const list = [
     desc: (
       <>
         Scripts and tools for Autodesk Maya.<br />
-        Python, MEL, or C++.<br />
-        Automate, extend, and customize your Maya workflow.
+        Python, MEL, or C++.
       </>
     )
   },
@@ -27,7 +26,6 @@ const list = [
       <>
         Addons and scripts for Blender.<br />
         Python only.<br />
-        Enhance your Blender experience with custom tools.
       </>
     )
   },
@@ -38,8 +36,7 @@ const list = [
     desc: (
       <>
         General-purpose scripts and utilities.<br />
-        Python, batch, shell, and more.<br />
-        Useful for various DCCs or standalone automation.
+        Mainly Python.
       </>
     )
   },
@@ -63,7 +60,7 @@ export default function Addons() {
             <Link
               key={item.title}
               to={item.to}
-              className="flex-1 h-[28rem] flex flex-col rounded-2xl bg-white border shadow-md hover:bg-blue-100 hover:scale-105 transition-transform duration-200 font-semibold text-2xl overflow-hidden"
+              className="flex-1 h-[24rem] flex flex-col rounded-2xl bg-white border shadow-md hover:bg-blue-100 hover:scale-105 transition-transform duration-200 font-semibold text-2xl overflow-hidden"
             >
               {/* Category cover image */}
               <img

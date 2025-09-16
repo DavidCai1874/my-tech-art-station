@@ -49,7 +49,20 @@ export default function TroubleShooting() {
                 <div className="text-4xl font-bold text-white drop-shadow-lg">{item.title}</div>
               </div>
             </Link>
+            
           ))}
+        </div>
+        {/* Suggestion box for user feedback */}
+        <div className="w-full flex flex-col items-center mt-16">
+          <div className="bg-black/85 rounded-xl shadow border p-6 w-full max-w-2xl">
+            <p className="text-lg text-white mb-0 text-center">
+              Have a tech problem you want solved? Go to&nbsp;
+              <Link to="/about" className="text-blue-300 underline hover:text-blue-400 font-semibold">
+                About
+              </Link>
+              &nbsp;and send me an email!
+            </p>
+          </div>
         </div>
       </div>
     </div>
