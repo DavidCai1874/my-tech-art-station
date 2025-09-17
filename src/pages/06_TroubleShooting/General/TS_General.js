@@ -10,7 +10,7 @@ const TS_General = [
     md: ts_g_0001
   },
   {
-    title: "Github Page 404 Problem",
+    title: "Github Page 404 For React + Vite Setup",
     id: "ts-g-0002",
     date: "2025-09-15",
     md: ts_g_0002

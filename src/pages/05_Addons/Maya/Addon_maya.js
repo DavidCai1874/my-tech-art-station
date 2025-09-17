@@ -1,5 +1,6 @@
 import m_a_001 from './mds/Animation/m-a-001.md?raw';
-import m_pm_001 from './mds/ProceduralModelling/m-pm-001.md?raw';
+import m_a_002 from './mds/Animation/m-a-002.md?raw';
+import m_c_001 from './mds/Camera/m-c-001.md?raw';
 
 // auto-generated Maya Addons
 const addonMaya = [
@@ -14,14 +15,24 @@ const addonMaya = [
     md: m_a_001
   },
   {
-    name: "Procedural Gear Generator",
-    id: "m-pm-001",
-    date: "2025-09-14",
+    name: "Relative Pose Copy Tool",
+    id: "m-a-002",
+    date: "2025-09-15",
     tags: [
-      "procedural modeling",
+      "animation",
       "python"
     ],
-    md: m_pm_001
+    md: m_a_002
+  },
+  {
+    name: "Face/Vertice/Edge Index Display",
+    id: "m-c-001",
+    date: "2025-09-16",
+    tags: [
+      "camera",
+      "c++"
+    ],
+    md: m_c_001
   }
 ];
 
