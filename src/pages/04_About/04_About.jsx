@@ -26,7 +26,7 @@ export default function About() {
         <p>Hi, I'm David. But more importantly...</p>
         <p className="font-bold text-orange-500 mt-2">I'm an orange.</p>
         <p className="mt-8 text-gray-600">
-          I solve tech problems. If you need help, just DM me on Discord (if you know me) or email me at <span className="underline font-bold ml-1">d916techart@gmail.com</span>
+          I solve tech problems. If you need help, just DM me on Discord (if you know me in person) or email me at <span className="underline font-bold ml-1">d916techart@gmail.com</span>
         </p>
         <p className="mt-15 text-gray-400">
           Why I built this website is because I believe knowledge should be public, logical, and honest. I created this site so people can find solutions, or at least can have someone to ask for help. I don’t want to see the same bugs and issues pop up over and over again. 

@@ -2,19 +2,14 @@
   "workingOn": 
   [
     {
-      "title": "Building the site",
-      "steps": [
-      ]
-    },
-    {
-      "title":"Github re-documentation for existing addons"
-    },
-    {
       "title": "AD's group",
       "steps": [
         "Check out Maya Unreal Live Link",
         "Perforce version control"
       ]
+    },
+    {
+      "title":"Github re-documentation for existing addons"
     }
   ],
 
@@ -25,8 +20,7 @@
     {
       "title": "AD's group",
       "steps": [
-        "Try the animation procedure in both maya and ue5",
-        "Perforce of AD's pc"
+        "RnD, and build the pipeline"
       ]
     },
     {
