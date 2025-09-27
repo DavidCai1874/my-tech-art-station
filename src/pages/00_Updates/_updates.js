@@ -1,4 +1,6 @@
 const updates = [
+  { date: "2025-09-26", text: "Live Link doc." },
+  { date: "2025-09-16", text: "Throw on all my existing doc thoughts." },
   { date: "2025-09-14", text: "All folders for Addons and TroubleShooting were done. Made script for formating markdown files,able to show number and dash. And scripts for searching bar, it was able to search things in ts and addons! Also, commented all exisiting codes! The basic functionalities of my site is almost done by now, the updates I'll put here will be, addon and troubleshoooting articles in the future. Cheers!!" },
   { date: "2025-09-13", text: "Commented some existing codes." },
   { date: "2025-09-11", text: "Did the Maya section for ts, and wrote my first doc! Troubleshooted the deply failure, because of the code running order, should be running personal script first." },

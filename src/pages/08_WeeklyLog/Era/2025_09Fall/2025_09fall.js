@@ -1,7 +1,7 @@
 import md2025_09_07 from './mds/2025-09-07.md?raw';
 import md2025_09_14 from './mds/2025-09-14.md?raw';
 import md2025_09_21 from './mds/2025-09-21.md?raw';
-// import md2025_09_28 from './mds/2025-09-28.md?raw';
+import md2025_09_28 from './mds/2025-09-28.md?raw';
 // import md2025_10_05 from './mds/2025-10-05.md?raw';
 // import md2025_10_12 from './mds/2025-10-12.md?raw';
 // import md2025_10_19 from './mds/2025-10-19.md?raw';
@@ -30,7 +30,7 @@ const weeks = [
   // { md: md2025_10_19, date: "2025-10-19", label: "Week 7 (Oct 19)" },
   // { md: md2025_10_12, date: "2025-10-12", label: "Week 6 (Oct 12)" },
   // { md: md2025_10_05, date: "2025-10-05", label: "Week 5 (Oct 5)" },
-  // { md: md2025_09_28, date: "2025-09-28", label: "Week 4 (Sep 28)" },
+  { md: md2025_09_28, date: "2025-09-28", label: "Week 4 (Sep 28)" },
   { md: md2025_09_21, date: "2025-09-21", label: "Week 3 (Sep 21)" },
   { md: md2025_09_14, date: "2025-09-14", label: "Week 2 (Sep 14)" },
   { md: md2025_09_07, date: "2025-09-07", label: "Week 1 (Sep 7)" },
