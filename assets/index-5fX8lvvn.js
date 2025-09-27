@@ -1107,7 +1107,7 @@ Though we probably not going to use this way, but I still write a doc just in ca
 Live Link Doc:
 [https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0002](https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0002)
 
-Pipeline RnD Report: (I the fucking do this because of Nicole's class's fucking extra points and I the fucking get nothing)
+Pipeline RnD Report:
 [https://docs.google.com/document/d/1d_eBTajAIRUb2NukosEqygSUbd1x06iz7BQT_MYVR6M/edit?tab=t.0](https://docs.google.com/document/d/1d_eBTajAIRUb2NukosEqygSUbd1x06iz7BQT_MYVR6M/edit?tab=t.0)
 
 ***
