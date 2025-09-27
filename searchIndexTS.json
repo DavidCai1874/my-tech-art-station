@@ -30,6 +30,11 @@
     "id": "TS-P-0001"
   },
   {
+    "title": "How To Set Up Maya Unreal Live Link",
+    "path": "troubleshooting/pipeline/ts-p-0002",
+    "id": "TS-P-0002"
+  },
+  {
     "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
     "path": "troubleshooting/unreal/ts-ue-0001",
     "id": "TS-UE-0001"
