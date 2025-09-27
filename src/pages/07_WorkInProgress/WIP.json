@@ -4,12 +4,11 @@
     {
       "title": "AD's group",
       "steps": [
-        "Check out Maya Unreal Live Link",
-        "Perforce version control"
+        "UE axis problem",
+        ".usd files",
+        "Naming convention",
+        "Pipeline"
       ]
-    },
-    {
-      "title":"Github re-documentation for existing addons"
     }
   ],
 
@@ -17,10 +16,15 @@
   
   "upcoming": 
   [
+    {"title": "Game Jam"
+    },
     {
       "title": "AD's group",
       "steps": [
-        "RnD, and build the pipeline"
+        "UE version",
+        "Render layers",
+        "Cloth sim",
+        "Version Contriol - perforce"
       ]
     },
     {
@@ -29,6 +33,9 @@
         "Camera tool",
         "Viewport tool"
       ]
+    },
+    {
+      "title":"Github re-documentation for existing addons"
     },
     {
       "title": "UE Project",
