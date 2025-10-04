@@ -1200,4 +1200,35 @@ Pipeline RnD Report:
 Personal things:
 
 Started planning for the game jam.
-`,uu=[{md:z4,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:R4,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:_4,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:M4,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function O4(){return g.jsxs(Ct,{children:[g.jsx(ge,{index:!0,element:g.jsx(qp,{to:uu[0].date,replace:!0})}),g.jsx(ge,{path:":weekDate",element:g.jsx(U4,{})})]})}function U4(){const{weekDate:a}=kt(),i=uu.find(s=>s.date===a)||uu[0],[r,u]=O.useState("");return O.useEffect(()=>{u(i.md||"")},[i.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...uu],currentDate:i.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function B4(){return g.jsxs(Ct,{children:[g.jsx(ge,{path:"2025-09fall/*",element:g.jsx(O4,{})}),g.jsx(ge,{path:"2025-06summer/*",element:g.jsx(j4,{})}),g.jsx(ge,{path:"/",element:g.jsx(m4,{})})]})}function L4(){return g.jsxs(g.Fragment,{children:[g.jsx(Ab,{}),g.jsx(Cb,{}),g.jsxs(Ct,{children:[g.jsx(ge,{path:"/",element:g.jsx(Hb,{})}),g.jsx(ge,{path:"/updates",element:g.jsx(Db,{})}),g.jsx(ge,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(ge,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(ge,{path:"/addons/*",element:g.jsx(MS,{})}),g.jsx(ge,{path:"/troubleshooting/*",element:g.jsx(s4,{})}),g.jsx(ge,{path:"/workinprogress",element:g.jsx(h4,{})}),g.jsx(ge,{path:"/weeklylog/*",element:g.jsx(B4,{})}),g.jsx(ge,{path:"/gallery",element:g.jsx(qb,{})})]})]})}t1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(L4,{})})}));
+`,O4=`# 2025-10-05
+
+Group things:
+
+RnD on .usd file and wrote a doc.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251003165957.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251003165637.png)
+
+[https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0003](https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0003)
+
+***
+
+Talked with Adrian and decided to use the FBX game export method he discovered:
+
+[![Watch on YouTube](https://img.youtube.com/vi/9Dtkt2Ogric/0.jpg)](https://www.youtube.com/watch?v=9Dtkt2Ogric&t=622s)
+
+There is a small problem: the pivot is not centered, so I'll write some code to try to solve that.  
+[![Watch on YouTube](https://img.youtube.com/vi/mFWvW1Zj5VQ/0.jpg)](https://www.youtube.com/watch?v=mFWvW1Zj5VQ)
+
+Adrian taught me how to match the grid size with UE. I will write documentation next week.  
+[![Watch on YouTube](https://img.youtube.com/vi/3DedT4dAazc/0.jpg)](https://www.youtube.com/watch?v=3DedT4dAazc&t=1s)
+
+File management:  
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251004150917.png)
+
+***
+
+Personal things:
+
+Game Jam prep and story.`,uu=[{md:O4,date:"2025-10-05",label:"Week 5 (Oct 5)"},{md:z4,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:R4,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:_4,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:M4,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function U4(){return g.jsxs(Ct,{children:[g.jsx(ge,{index:!0,element:g.jsx(qp,{to:uu[0].date,replace:!0})}),g.jsx(ge,{path:":weekDate",element:g.jsx(B4,{})})]})}function B4(){const{weekDate:a}=kt(),i=uu.find(s=>s.date===a)||uu[0],[r,u]=O.useState("");return O.useEffect(()=>{u(i.md||"")},[i.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...uu],currentDate:i.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function L4(){return g.jsxs(Ct,{children:[g.jsx(ge,{path:"2025-09fall/*",element:g.jsx(U4,{})}),g.jsx(ge,{path:"2025-06summer/*",element:g.jsx(j4,{})}),g.jsx(ge,{path:"/",element:g.jsx(m4,{})})]})}function H4(){return g.jsxs(g.Fragment,{children:[g.jsx(Ab,{}),g.jsx(Cb,{}),g.jsxs(Ct,{children:[g.jsx(ge,{path:"/",element:g.jsx(Hb,{})}),g.jsx(ge,{path:"/updates",element:g.jsx(Db,{})}),g.jsx(ge,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(ge,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(ge,{path:"/addons/*",element:g.jsx(MS,{})}),g.jsx(ge,{path:"/troubleshooting/*",element:g.jsx(s4,{})}),g.jsx(ge,{path:"/workinprogress",element:g.jsx(h4,{})}),g.jsx(ge,{path:"/weeklylog/*",element:g.jsx(L4,{})}),g.jsx(ge,{path:"/gallery",element:g.jsx(qb,{})})]})]})}t1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(H4,{})})}));
