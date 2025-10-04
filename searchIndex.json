@@ -72,6 +72,10 @@
     "path": "weeklylog/2025-09fall/2025-09-28"
   },
   {
+    "title": "2025-10-05",
+    "path": "weeklylog/2025-09fall/2025-10-05"
+  },
+  {
     "title": "Blender Batch Import Addon",
     "path": "addons/blender/b-bp-001",
     "id": "B-BP-001"
@@ -145,6 +149,11 @@
     "title": "How To Set Up Maya Unreal Live Link",
     "path": "troubleshooting/pipeline/ts-p-0002",
     "id": "TS-P-0002"
+  },
+  {
+    "title": "How To Import USD File From Maya To Unreal Engine 5",
+    "path": "troubleshooting/pipeline/ts-p-0003",
+    "id": "TS-P-0003"
   },
   {
     "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
