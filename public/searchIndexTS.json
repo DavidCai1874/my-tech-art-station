@@ -10,13 +10,38 @@
     "id": "TS-G-0001"
   },
   {
-    "title": "Github Page 404 Problem",
+    "title": "Github Page 404 For React + Vite Setup",
     "path": "troubleshooting/general/ts-g-0002",
     "id": "TS-G-0002"
+  },
+  {
+    "title": "Everything Is Node, Every Node Can Be Referenced By An MObject",
+    "path": "troubleshooting/maya/ts-m-0001",
+    "id": "TS-M-0001"
+  },
+  {
+    "title": "What Does The Group Of A Control Do",
+    "path": "troubleshooting/maya/ts-m-0002",
+    "id": "TS-M-0002"
   },
   {
     "title": "How To Import Animation From Maya To Unreal Engine 5",
     "path": "troubleshooting/pipeline/ts-p-0001",
     "id": "TS-P-0001"
+  },
+  {
+    "title": "How To Set Up Maya Unreal Live Link",
+    "path": "troubleshooting/pipeline/ts-p-0002",
+    "id": "TS-P-0002"
+  },
+  {
+    "title": "How To Import USD File From Maya To Unreal Engine 5",
+    "path": "troubleshooting/pipeline/ts-p-0003",
+    "id": "TS-P-0003"
+  },
+  {
+    "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
+    "path": "troubleshooting/unreal/ts-ue-0001",
+    "id": "TS-UE-0001"
   }
 ]
