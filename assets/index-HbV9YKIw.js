@@ -1231,4 +1231,89 @@ File management:
 
 Personal things:
 
-Game Jam prep and story.`,uu=[{md:O4,date:"2025-10-05",label:"Week 5 (Oct 5)"},{md:z4,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:R4,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:_4,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:M4,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function U4(){return g.jsxs(Ct,{children:[g.jsx(ge,{index:!0,element:g.jsx(qp,{to:uu[0].date,replace:!0})}),g.jsx(ge,{path:":weekDate",element:g.jsx(B4,{})})]})}function B4(){const{weekDate:a}=kt(),i=uu.find(s=>s.date===a)||uu[0],[r,u]=O.useState("");return O.useEffect(()=>{u(i.md||"")},[i.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...uu],currentDate:i.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function L4(){return g.jsxs(Ct,{children:[g.jsx(ge,{path:"2025-09fall/*",element:g.jsx(U4,{})}),g.jsx(ge,{path:"2025-06summer/*",element:g.jsx(j4,{})}),g.jsx(ge,{path:"/",element:g.jsx(m4,{})})]})}function H4(){return g.jsxs(g.Fragment,{children:[g.jsx(Ab,{}),g.jsx(Cb,{}),g.jsxs(Ct,{children:[g.jsx(ge,{path:"/",element:g.jsx(Hb,{})}),g.jsx(ge,{path:"/updates",element:g.jsx(Db,{})}),g.jsx(ge,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(ge,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(ge,{path:"/addons/*",element:g.jsx(MS,{})}),g.jsx(ge,{path:"/troubleshooting/*",element:g.jsx(s4,{})}),g.jsx(ge,{path:"/workinprogress",element:g.jsx(h4,{})}),g.jsx(ge,{path:"/weeklylog/*",element:g.jsx(L4,{})}),g.jsx(ge,{path:"/gallery",element:g.jsx(qb,{})})]})]})}t1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(H4,{})})}));
+Game Jam prep and story.`,U4=`# 2025-10-12
+
+Group things:
+
+Wrote a code to auto adjust the grid size in maya.
+
+\`\`\`python
+import maya.cmds as cmds
+cmds.grid( reset=True )
+cmds.grid(size=2000, spacing=100, divisions=2)
+\`\`\`
+
+And developed a visual tool that can create cube/sphere/cylinder matches the size of the grid (it also sets the size of the grid every time running it)
+
+https://github.com/DavidCai1874/Maya-UE-Grid-Size-Tool
+(I haven't doc this yet)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152058.png)
+
+
+***
+
+Personal things:
+
+SCREAM JAM!!!
+
+Only rough things but the basic codes are almost all done.
+
+
+
+Main menu & loading scene:
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152345.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152433.png)
+
+Vibe:
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152532.png)
+
+
+Highlight interactable object:
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152257.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152320.png)
+
+Interaction:
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251013152219.png)`,B4=`# 2025-10-19
+
+Group things:
+
+Look into visibility in UE.
+
+Even keys the keyframe in Maya, this info will not be baked.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151356.png)
+
+Two ways to solve this problem:
+
+1\\. Keyframe the visibility in UE.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151551.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151604.png)
+
+2\\. Scale the geo size to 0,0,0 in one frame. But this will affect the geo straightly, or need to change the rigging hierachy, so we need further RnD on this.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151731.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151814.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019151832.png)
+
+***
+
+Personal things:
+
+GAME JAM DONE!!!
+
+[https://davidcai1874.itch.io/daysthree](https://davidcai1874.itch.io/daysthree)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251019152133.png)
+
+I'm so f**king tired because of this, I need a good break for a few days.`,uu=[{md:B4,date:"2025-10-19",label:"Week 7 (Oct 19)"},{md:U4,date:"2025-10-12",label:"Week 6 (Oct 12)"},{md:O4,date:"2025-10-05",label:"Week 5 (Oct 5)"},{md:z4,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:R4,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:_4,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:M4,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function L4(){return g.jsxs(Ct,{children:[g.jsx(ge,{index:!0,element:g.jsx(qp,{to:uu[0].date,replace:!0})}),g.jsx(ge,{path:":weekDate",element:g.jsx(H4,{})})]})}function H4(){const{weekDate:a}=kt(),i=uu.find(s=>s.date===a)||uu[0],[r,u]=O.useState("");return O.useEffect(()=>{u(i.md||"")},[i.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...uu],currentDate:i.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function q4(){return g.jsxs(Ct,{children:[g.jsx(ge,{path:"2025-09fall/*",element:g.jsx(L4,{})}),g.jsx(ge,{path:"2025-06summer/*",element:g.jsx(j4,{})}),g.jsx(ge,{path:"/",element:g.jsx(m4,{})})]})}function Y4(){return g.jsxs(g.Fragment,{children:[g.jsx(Ab,{}),g.jsx(Cb,{}),g.jsxs(Ct,{children:[g.jsx(ge,{path:"/",element:g.jsx(Hb,{})}),g.jsx(ge,{path:"/updates",element:g.jsx(Db,{})}),g.jsx(ge,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(ge,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(ge,{path:"/addons/*",element:g.jsx(MS,{})}),g.jsx(ge,{path:"/troubleshooting/*",element:g.jsx(s4,{})}),g.jsx(ge,{path:"/workinprogress",element:g.jsx(h4,{})}),g.jsx(ge,{path:"/weeklylog/*",element:g.jsx(q4,{})}),g.jsx(ge,{path:"/gallery",element:g.jsx(qb,{})})]})]})}t1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(Y4,{})})}));
