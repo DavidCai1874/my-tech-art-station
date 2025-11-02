@@ -1,6 +1,7 @@
 import ts_p_0001 from './mds/ts-p-0001.md?raw';
 import ts_p_0002 from './mds/ts-p-0002.md?raw';
 import ts_p_0003 from './mds/ts-p-0003.md?raw';
+import ts_p_0004 from './mds/ts-p-0004.md?raw';
 
 // auto-generated file for Pipeline
 const TS_Pipeline = [
@@ -21,6 +22,12 @@ const TS_Pipeline = [
     id: "ts-p-0003",
     date: "2025-10-03",
     md: ts_p_0003
+  },
+  {
+    title: "How To Set Up Local Perforce Server And Version Control",
+    id: "ts-p-0004",
+    date: "2025-11-01",
+    md: ts_p_0004
   }
 ];
 export default TS_Pipeline;

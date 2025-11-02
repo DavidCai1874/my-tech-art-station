@@ -40,6 +40,11 @@
     "id": "TS-P-0003"
   },
   {
+    "title": "How To Set Up Local Perforce Server And Version Control",
+    "path": "troubleshooting/pipeline/ts-p-0004",
+    "id": "TS-P-0004"
+  },
+  {
     "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
     "path": "troubleshooting/unreal/ts-ue-0001",
     "id": "TS-UE-0001"
