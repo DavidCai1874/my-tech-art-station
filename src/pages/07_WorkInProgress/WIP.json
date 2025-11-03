@@ -4,10 +4,6 @@
     {
       "title": "AD's group",
       "steps": [
-        "UE axis problem",
-        ".usd files",
-        "Naming convention",
-        "Pipeline"
       ]
     }
   ],
@@ -21,29 +17,15 @@
     {
       "title": "AD's group",
       "steps": [
-        "UE version",
-        "Render layers",
-        "Cloth sim",
-        "Version Contriol - perforce"
       ]
     },
     {
       "title": "Maya Python Tool",
       "steps": [
-        "Camera tool",
-        "Viewport tool"
       ]
     },
     {
       "title":"Github re-documentation for existing addons"
-    },
-    {
-      "title": "UE Project",
-      "steps": [
-        "Blueprint Tut",
-        "Shader Tut",
-        "Begin the project"
-      ]
     },
     {
       "title": "unity game + shader",
@@ -52,6 +34,7 @@
     {
       "title": "Update the website",
       "steps": [
+        "Record tutorial video for existing docs",
         "Unify the site style with index.css",
         "gallery",
         "playground",
