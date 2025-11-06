@@ -45,6 +45,11 @@
     "id": "TS-P-0004"
   },
   {
+    "title": "How to Configure Settings In P4V To Get the Best Single-User Experience",
+    "path": "troubleshooting/pipeline/ts-p-0005",
+    "id": "TS-P-0005"
+  },
+  {
     "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
     "path": "troubleshooting/unreal/ts-ue-0001",
     "id": "TS-UE-0001"

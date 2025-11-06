@@ -88,6 +88,10 @@
     "path": "weeklylog/2025-09fall/2025-10-26"
   },
   {
+    "title": "2025-11-02",
+    "path": "weeklylog/2025-09fall/2025-11-02"
+  },
+  {
     "title": "Blender Batch Import Addon",
     "path": "addons/blender/b-bp-001",
     "id": "B-BP-001"
@@ -171,6 +175,11 @@
     "title": "How To Set Up Local Perforce Server And Version Control",
     "path": "troubleshooting/pipeline/ts-p-0004",
     "id": "TS-P-0004"
+  },
+  {
+    "title": "How to Configure Settings In P4V To Get the Best Single-User Experience",
+    "path": "troubleshooting/pipeline/ts-p-0005",
+    "id": "TS-P-0005"
   },
   {
     "title": "Why My Final Render Has Flickering Lights And Renders Slowly",
