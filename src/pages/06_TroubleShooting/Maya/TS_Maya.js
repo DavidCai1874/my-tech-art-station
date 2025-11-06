@@ -1,19 +1,26 @@
 import ts_m_0001 from './mds/ts-m-0001.md?raw';
 import ts_m_0002 from './mds/ts-m-0002.md?raw';
+import ts_m_0003 from './mds/ts-m-0003.md?raw';
 
 // auto-generated file for Maya
 const TS_Maya = [
   {
-    title: "Everything Is Node, Every Node Can Be Referenced By An MObject",
+    title: "Everything Is Node, Every Node Can Be Referenced by an MObject",
     id: "ts-m-0001",
     date: "2025-09-15",
     md: ts_m_0001
   },
   {
-    title: "What Does The Group Of A Control Do",
+    title: "What Does the Group of a Control Do",
     id: "ts-m-0002",
     date: "2025-09-16",
     md: ts_m_0002
+  },
+  {
+    title: "What Are the Vectors in Aim Constraint",
+    id: "ts-m-0003",
+    date: "2025-11-05",
+    md: ts_m_0003
   }
 ];
 export default TS_Maya;
