@@ -1790,4 +1790,25 @@ QUESTION: does your studio accept transform of geos inside the scene?
 
 Persoanl:
 
-E`,oo=[{md:IS,date:"2025-11-16",label:"Week 11 (Nov 16)"},{md:GS,date:"2025-11-09",label:"Week 10 (Nov 9)"},{md:VS,date:"2025-11-02",label:"Week 9 (Nov 2)"},{md:YS,date:"2025-10-26",label:"Week 8 (Oct 26)"},{md:qS,date:"2025-10-19",label:"Week 7 (Oct 19)"},{md:HS,date:"2025-10-12",label:"Week 6 (Oct 12)"},{md:LS,date:"2025-10-05",label:"Week 5 (Oct 5)"},{md:BS,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:US,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:zS,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:OS,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function XS(){return g.jsxs(Ee,{children:[g.jsx(gt,{index:!0,element:g.jsx(qp,{to:oo[0].date,replace:!0})}),g.jsx(gt,{path:":weekDate",element:g.jsx(QS,{})})]})}function QS(){const{weekDate:a}=ke(),l=oo.find(u=>u.date===a)||oo[0],[r,o]=z.useState("");return z.useEffect(()=>{o(l.md||"")},[l.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...oo],currentDate:l.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function ZS(){return g.jsxs(Ee,{children:[g.jsx(gt,{path:"2025-09fall/*",element:g.jsx(XS,{})}),g.jsx(gt,{path:"2025-06summer/*",element:g.jsx(_S,{})}),g.jsx(gt,{path:"/",element:g.jsx(yS,{})})]})}function PS(){return g.jsxs(g.Fragment,{children:[g.jsx(Db,{}),g.jsx(Eb,{}),g.jsxs(Ee,{children:[g.jsx(gt,{path:"/",element:g.jsx(Hb,{})}),g.jsx(gt,{path:"/updates",element:g.jsx(Ab,{})}),g.jsx(gt,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(gt,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(gt,{path:"/addons/*",element:g.jsx(M4,{})}),g.jsx(gt,{path:"/troubleshooting/*",element:g.jsx(fS,{})}),g.jsx(gt,{path:"/workinprogress",element:g.jsx(pS,{})}),g.jsx(gt,{path:"/weeklylog/*",element:g.jsx(ZS,{})}),g.jsx(gt,{path:"/gallery",element:g.jsx(qb,{})})]})]})}e1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(PS,{})})}));
+E`,XS=`# 2025-11-23
+
+We decided to use Blueprint (the UE version prefab).
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251123170327.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251123170422.png)
+
+But, python doesn't have a way to access the inside of a Blueprint.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251121144254.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251121144355.png)
+
+Maya side:
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251123170609.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251123170749.png)
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251123170726.png)
+`,oo=[{md:XS,date:"2025-11-23",label:"Week 12 (Nov 23)"},{md:IS,date:"2025-11-16",label:"Week 11 (Nov 16)"},{md:GS,date:"2025-11-09",label:"Week 10 (Nov 9)"},{md:VS,date:"2025-11-02",label:"Week 9 (Nov 2)"},{md:YS,date:"2025-10-26",label:"Week 8 (Oct 26)"},{md:qS,date:"2025-10-19",label:"Week 7 (Oct 19)"},{md:HS,date:"2025-10-12",label:"Week 6 (Oct 12)"},{md:LS,date:"2025-10-05",label:"Week 5 (Oct 5)"},{md:BS,date:"2025-09-28",label:"Week 4 (Sep 28)"},{md:US,date:"2025-09-21",label:"Week 3 (Sep 21)"},{md:zS,date:"2025-09-14",label:"Week 2 (Sep 14)"},{md:OS,date:"2025-09-07",label:"Week 1 (Sep 7)"}];function QS(){return g.jsxs(Ee,{children:[g.jsx(gt,{index:!0,element:g.jsx(qp,{to:oo[0].date,replace:!0})}),g.jsx(gt,{path:":weekDate",element:g.jsx(ZS,{})})]})}function ZS(){const{weekDate:a}=ke(),l=oo.find(u=>u.date===a)||oo[0],[r,o]=z.useState("");return z.useEffect(()=>{o(l.md||"")},[l.md]),g.jsx(_g,{title:g.jsxs(g.Fragment,{children:["2025",g.jsx("br",{}),"Fall"]}),weeks:[...oo],currentDate:l.date,children:g.jsx("div",{className:"markdown-body",children:g.jsx(mn,{children:r})})})}function PS(){return g.jsxs(Ee,{children:[g.jsx(gt,{path:"2025-09fall/*",element:g.jsx(QS,{})}),g.jsx(gt,{path:"2025-06summer/*",element:g.jsx(_S,{})}),g.jsx(gt,{path:"/",element:g.jsx(yS,{})})]})}function KS(){return g.jsxs(g.Fragment,{children:[g.jsx(Db,{}),g.jsx(Eb,{}),g.jsxs(Ee,{children:[g.jsx(gt,{path:"/",element:g.jsx(Hb,{})}),g.jsx(gt,{path:"/updates",element:g.jsx(Ab,{})}),g.jsx(gt,{path:"/playground",element:g.jsx(Yb,{})}),g.jsx(gt,{path:"/about",element:g.jsx(Gb,{})}),g.jsx(gt,{path:"/addons/*",element:g.jsx(M4,{})}),g.jsx(gt,{path:"/troubleshooting/*",element:g.jsx(fS,{})}),g.jsx(gt,{path:"/workinprogress",element:g.jsx(pS,{})}),g.jsx(gt,{path:"/weeklylog/*",element:g.jsx(PS,{})}),g.jsx(gt,{path:"/gallery",element:g.jsx(qb,{})})]})]})}e1.createRoot(document.getElementById("root")).render(g.jsx(Np.StrictMode,{children:g.jsx(pb,{basename:"/my-tech-art-station",children:g.jsx(KS,{})})}));
