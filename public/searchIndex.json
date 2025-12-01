@@ -100,6 +100,14 @@
     "path": "weeklylog/2025-09fall/2025-11-16"
   },
   {
+    "title": "2025-11-23",
+    "path": "weeklylog/2025-09fall/2025-11-23"
+  },
+  {
+    "title": "2025-11-30",
+    "path": "weeklylog/2025-09fall/2025-11-30"
+  },
+  {
     "title": "Blender Batch Import Addon",
     "path": "addons/blender/b-bp-001",
     "id": "B-BP-001"
