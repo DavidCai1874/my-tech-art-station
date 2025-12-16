@@ -1,62 +1,67 @@
 [
   {
     "title": "What If I Only Keyframed Viewport Visibility in Blender",
-    "path": "troubleshooting/blender/ts-b-0001",
+    "path": "/src/pages/05_troubleshooting/blender/ts-b-0001",
     "id": "TS-B-0001"
   },
   {
     "title": "How Do I Organize My Articles for This Website",
-    "path": "troubleshooting/general/ts-g-0001",
+    "path": "/src/pages/05_troubleshooting/general/ts-g-0001",
     "id": "TS-G-0001"
   },
   {
     "title": "GitHub Page 404 for React + Vite Setup",
-    "path": "troubleshooting/general/ts-g-0002",
+    "path": "/src/pages/05_troubleshooting/general/ts-g-0002",
     "id": "TS-G-0002"
   },
   {
     "title": "Everything Is Node, Every Node Can Be Referenced by an MObject",
-    "path": "troubleshooting/maya/ts-m-0001",
+    "path": "/src/pages/05_troubleshooting/maya/ts-m-0001",
     "id": "TS-M-0001"
   },
   {
     "title": "What Does the Group of a Control Do",
-    "path": "troubleshooting/maya/ts-m-0002",
+    "path": "/src/pages/05_troubleshooting/maya/ts-m-0002",
     "id": "TS-M-0002"
   },
   {
     "title": "What Are the Vectors in Aim Constraint",
-    "path": "troubleshooting/maya/ts-m-0003",
+    "path": "/src/pages/05_troubleshooting/maya/ts-m-0003",
     "id": "TS-M-0003"
   },
   {
     "title": "How to Import Animation from Maya to Unreal Engine 5",
-    "path": "troubleshooting/pipeline/ts-p-0001",
+    "path": "/src/pages/05_troubleshooting/pipeline/ts-p-0001",
     "id": "TS-P-0001"
   },
   {
     "title": "How to Set Up Maya Unreal Live Link",
-    "path": "troubleshooting/pipeline/ts-p-0002",
+    "path": "/src/pages/05_troubleshooting/pipeline/ts-p-0002",
     "id": "TS-P-0002"
   },
   {
     "title": "How to Import USD File from Maya to Unreal Engine 5",
-    "path": "troubleshooting/pipeline/ts-p-0003",
+    "path": "/src/pages/05_troubleshooting/pipeline/ts-p-0003",
     "id": "TS-P-0003"
   },
   {
     "title": "How to Set Up Local Perforce Server and Version Control",
-    "path": "troubleshooting/pipeline/ts-p-0004",
+    "path": "/src/pages/05_troubleshooting/pipeline/ts-p-0004",
     "id": "TS-P-0004"
   },
   {
     "title": "How to Configure Settings in P4V to Get the Best Single-User Experience",
-    "path": "troubleshooting/pipeline/ts-p-0005",
+    "path": "/src/pages/05_troubleshooting/pipeline/ts-p-0005",
     "id": "TS-P-0005"
   },
   {
     "title": "Why My Final Render Has Flickering Lights and Renders Slowly",
-    "path": "troubleshooting/unreal/ts-ue-0001",
+    "path": "/src/pages/05_troubleshooting/unreal/ts-ue-0001",
     "id": "TS-UE-0001"
+  },
+  {
+    "title": "How To Install Visual Studio For UE 5.3",
+    "path": "/src/pages/05_troubleshooting/unreal/ts-ue-0002",
+    "id": "TS-UE-0002"
   }
 ]
