@@ -7,7 +7,7 @@ function capitalize(str) {
 }
 
 // root directory
-const ROOT = path.join(process.cwd(), "src/pages/06_TroubleShooting");
+const ROOT = path.join(process.cwd(), "src/pages/05_TroubleShooting");
 const tools = ["Maya", "Unreal", "Blender", "Pipeline", "General"];
 
 tools.forEach(tool => {

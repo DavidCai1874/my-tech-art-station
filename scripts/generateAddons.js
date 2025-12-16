@@ -10,7 +10,7 @@ function capitalize(str) {
 const tools = ["Maya", "Blender", "General"];
 
 // root directory
-const ROOT = path.join(process.cwd(), "src/pages/05_Addons");
+const ROOT = path.join(process.cwd(), "src/pages/04_Addons");
 
 tools.forEach(folder => {
   const mdsRoot = path.join(ROOT, folder, "mds");

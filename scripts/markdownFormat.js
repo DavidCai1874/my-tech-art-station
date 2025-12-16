@@ -3,9 +3,9 @@ import path from "path";
 
 // define the root directories to process
 const roots = [
-  path.join(process.cwd(), "src/pages/05_Addons"),
-  path.join(process.cwd(), "src/pages/06_TroubleShooting"),
-  path.join(process.cwd(), "src/pages/08_WeeklyLog")
+  path.join(process.cwd(), "src/pages/04_Addons"),
+  path.join(process.cwd(), "src/pages/05_TroubleShooting"),
+  path.join(process.cwd(), "src/pages/06_WeeklyLog")
 ];
 
 // recursively find all markdown files in a directory

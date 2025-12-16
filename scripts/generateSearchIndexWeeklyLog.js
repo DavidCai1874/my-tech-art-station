@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const contentDir = path.join(process.cwd(), 'src/pages/08_WeeklyLog');
+const contentDir = path.join(process.cwd(), 'src/pages/06_WeeklyLog');
 const output = [];
 
 function formatWeeklyLogPath(relativePath) {

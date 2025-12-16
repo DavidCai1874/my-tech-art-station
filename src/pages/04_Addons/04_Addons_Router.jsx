@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Addons from "./05_Addons.jsx";
+import Addons from "./04_Addons.jsx";
 import AddonMayaRouter from "./Maya/Addon_Maya_Router.jsx";
 import AddonBlender from "./Blender/Addon_Blender_Router.jsx";
 import AddonGeneral from "./General/Addon_General_Router.jsx";

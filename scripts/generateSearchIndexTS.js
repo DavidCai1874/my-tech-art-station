@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 // set the directory to src/pages/06_TroubleShooting
-const contentDir = path.join(process.cwd(), 'src/pages/06_TroubleShooting');
+const contentDir = path.join(process.cwd(), 'src/pages/05_TroubleShooting');
 const output = [];
 
 // format path for TroubleShooting markdown files

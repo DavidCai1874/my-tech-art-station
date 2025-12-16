@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const contentDir = path.join(process.cwd(), 'src/pages/05_Addons');
+const contentDir = path.join(process.cwd(), 'src/pages/04_Addons');
 const output = [];
 
 // recursively walk through all files in the directory
