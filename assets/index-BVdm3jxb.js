@@ -494,7 +494,11 @@ The Unreal Engine version I use is **5.3.2**.
 
 6\\. Install Visual Studio 2022.
 
-7\\. Although we deselected the latest version and selected an older version for MSVC's installation, VS still installs two versions. So go to (assuming you didn't change the default installation path): C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC. **Delete the other version and leave only the folder of 14.37**.
+7\\. Although we deselected the latest version and selected an older version for MSVC's installation, VS still installs two versions. So go to (assuming you didn't change the default installation path):
+
+C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC. 
+
+**Delete the other version and leave only the folder of 14.37**.
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251215180920.png)
 
