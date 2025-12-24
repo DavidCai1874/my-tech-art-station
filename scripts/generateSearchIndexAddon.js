@@ -30,8 +30,8 @@ function walk(dir) {
       // get relative path from project root
       let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
 
-      // format path: replace /src/pages/05_Addons/ with addons/
-      let formattedPath = relativePath.replace(/^\/?src\/pages\/05_Addons\//, 'addons/');
+      // format path: replace /src/pages/04_Addons/ with addons/
+      let formattedPath = relativePath.replace(/^\/?src\/pages\/04_Addons\//, 'addons/');
 
       // extract tool name (maya, blender, etc.)
       const toolMatch = formattedPath.match(/^addons\/([^/]+)\/mds\//i);

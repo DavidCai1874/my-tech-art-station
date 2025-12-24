@@ -9,7 +9,7 @@ function formatWeeklyLogPath(relativePath) {
   let p = relativePath;
 
   // 替换 WeeklyLog 路径前缀
-  p = p.replace(/^\/src\/pages\/08_WeeklyLog\/Era\//i, 'weeklylog/');
+  p = p.replace(/^\/src\/pages\/06_WeeklyLog\/Era\//i, 'weeklylog/');
 
   // 去掉 /mds/
   p = p.replace(/\/mds\//gi, '/');
@@ -41,13 +41,13 @@ function walk(dir) {
         } else {
           title = file.replace('.md', '');
         }
-      }
+      };
 
       let relativePath = fullPath.replace(process.cwd(), '').replace(/\\/g, '/');
       relativePath = relativePath.replace('.md', '');
 
       // deal with WeeklyLog
-      if (relativePath.includes('/src/pages/08_WeeklyLog/Era/')) {
+      if (relativePath.includes('/src/pages/06_WeeklyLog/Era/')) {
         relativePath = formatWeeklyLogPath(relativePath);
       }
 

@@ -1,49 +1,26 @@
-import b_bp_001 from './mds/BatchProcess/b-bp-001.md?raw';
-import b_c_001 from './mds/Camera/b-c-001.md?raw';
-import b_s_001 from './mds/Shader/b-s-001.md?raw';
-import b_s_002 from './mds/Shader/b-s-002.md?raw';
-
 // auto-generated Blender Addons
 const addonBlender = [
   {
-    name: "Blender Batch Import Addon",
-    id: "b-bp-001",
-    date: "2025-09-16",
-    tags: [
-      "batch process",
-      "python"
-    ],
-    md: b_bp_001
-  },
-  {
     name: "Viewport And Render Visibility Sync Addon",
-    id: "b-c-001",
+    id: "b-001",
     date: "2025-09-15",
     tags: [
       "camera",
       "python"
     ],
-    md: b_c_001
+    githubDoc: "https://github.com/DavidCai1874/Blender-Viewport-And-Render-Visibility-Sync-Addon",
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250915180200.png"
   },
   {
-    name: "Shader Library 1",
-    id: "b-s-001",
-    date: "2025-09-15",
-    tags: [
-      "shader",
-      "python"
-    ],
-    md: b_s_001
-  },
-  {
-    name: "Watercolor Shader",
-    id: "b-s-002",
+    name: "Blender Batch Import Addon",
+    id: "b-002",
     date: "2025-09-16",
     tags: [
-      "shader",
+      "batch process",
       "python"
     ],
-    md: b_s_002
+    githubDoc: "https://github.com/DavidCai1874/Blender-Batch-Import",
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250916135634.png"
   }
 ];
 

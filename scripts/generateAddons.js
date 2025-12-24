@@ -31,34 +31,27 @@ tools.forEach(folder => {
     fs.readdirSync(dir).forEach(file => {
       const fullPath = path.join(dir, file);
       const stat = fs.statSync(fullPath);
-      if (stat.isDirectory()) {
+      if (stat.isDirectory()) 
+      {
         // if it's a directory, walk into it
         walk(fullPath);
-      } else if (file.endsWith(".md")) {
-        // if it's a markdown file, process it
-        const varName = file.replace(/\.md$/, "").replace(/[^a-zA-Z0-9_]/g, "_");
-        // relative path for import
-        const relPath = './mds/' + path.relative(mdsRoot, fullPath).replace(/\\/g, '/');
-        importLines.push(`import ${varName} from '${relPath}?raw';`);
-
+      } 
+      else if (file.endsWith(".md")) 
+      {
         // read file content and extract metadata
         const content = fs.readFileSync(fullPath, "utf-8").split("\n");
         const nameLine = content.find(line => line.startsWith("# "));
-        const idLine = content.find(line => line.startsWith("## "));
-        // detect date from the third line if it starts with '### '
-        let date = null;
-        if (content[2] && content[2].startsWith("### ")) {
-          date = content[2].replace("### ", "").trim();
-        }
-        // detect tags from the fourth line if it starts with '#### '
-        let tags = [];
-        if (content[3] && content[3].startsWith("#### ")) {
-          tags = content[3].replace("#### ", "").split(",").map(t => t.trim().toLowerCase());
-        }
+        const dateLine = content.find(line => line.startsWith("## "));
+        const tagsLine = content.find(line => line.startsWith("### "));
+        const githubDocLine = content.find(line => line.startsWith("#### "));
+        const imageLine = content.find(line => line.startsWith("##### "));
 
-        // extract name and id from markdown
-        const name = nameLine ? nameLine.replace("# ", "").trim() : "Untitled";
-        const id = idLine ? idLine.replace("## ", "").trim().toLowerCase() : "no-id";
+        const name = nameLine ? nameLine.replace("# ", "").trim() : "UNTITLED";
+        const id = file.replace(/\.md$/, "").toLowerCase();
+        const date = dateLine ? dateLine.replace("## ", "").trim() : null;
+        const tags = tagsLine ? tagsLine.replace("### ", "").split(",").map(t => t.trim().toLowerCase()) : [];
+        const githubDoc = githubDocLine ? githubDocLine.replace("#### ", "").trim() : null;
+        const image = imageLine ? imageLine.replace("##### ", "").replace(/^!\[.*\]\((.*)\)$/, "$1").trim() : null;
 
         // infos
         entries.push({
@@ -66,7 +59,8 @@ tools.forEach(folder => {
           id,
           date,
           tags,
-          md: varName
+          githubDoc,
+          image,
         });
       }
     });
@@ -77,15 +71,14 @@ tools.forEach(folder => {
 
   // generate output
   const output =
-`${importLines.join("\n")}
-
-// auto-generated ${capitalize(folder)} Addons
+`// auto-generated ${capitalize(folder)} Addons
 const addon${capitalize(folder)} = ${JSON.stringify(entries, null, 2)
-    .replace(/"md": "([^"]+)"/g, 'md: $1')
     .replace(/"name":/g, 'name:')
     .replace(/"id":/g, 'id:')
     .replace(/"date":/g, 'date:')
     .replace(/"tags":/g, 'tags:')
+    .replace(/"githubDoc":/g, 'githubDoc:')
+    .replace(/"image":/g, 'image:')
 };
 
 export default addon${capitalize(folder)};

@@ -1,5 +1,10 @@
 [
-
+  {
+    "title": "2026",
+    "periods": [
+      { "label": "2026 Spring\nJan - April", "path": "2026-01spring", "image": "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251223180139.png" }
+    ]
+  },
   {
     "title": "2025",
     "periods": [

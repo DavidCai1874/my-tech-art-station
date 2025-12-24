@@ -43,19 +43,22 @@ tools.forEach(tool => {
     // read file content and extract metadata
     const content = fs.readFileSync(path.join(mdsDir, file), "utf-8").split("\n");
     const titleLine = content.find(line => line.startsWith("# "));
-    const numberLine = content.find(line => line.startsWith("## "));
-    const dateLine = content.find(line => line.startsWith("### "));
+    const dateLine = content.find(line => line.startsWith("## "));
+    const imageLine = content.find(line => line.startsWith("### "));
 
     // extract title, id, and date from markdown
+    const id = file.replace(/\.md$/, "");
     const title = titleLine ? titleLine.replace("# ", "").trim() : "Untitled";
-    const id = numberLine ? numberLine.replace("## ", "").trim().toLowerCase() : "no-id";
-    const date = dateLine ? dateLine.replace("### ", "").trim() : null; 
+    const date = dateLine ? dateLine.replace("## ", "").trim() : null;
+    const image = imageLine ? imageLine.replace("### ", "").replace(/^\s*!\[.*\]\((.*)\)\s*$/, "$1").trim() : null;
+
 
     // add entry for this troubleshooting item
     entries.push({
       title,
       id,
-      date, // add date field
+      date, 
+      image,
       md: varName
     });
   });
@@ -70,6 +73,7 @@ const TS_${capitalize(tool)} = ${JSON.stringify(entries, null, 2)
     .replace(/"title":/g, 'title:')
     .replace(/"id":/g, 'id:')
     .replace(/"date":/g, 'date:')
+    .replace(/"image":/g, 'image:')
 };
 export default TS_${capitalize(tool)};
 `;

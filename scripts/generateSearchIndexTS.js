@@ -9,8 +9,8 @@ const output = [];
 // format path for TroubleShooting markdown files
 function formatTSPath(relativePath) {
   let p = relativePath;
-  // remove /src/pages/06_TroubleShooting
-  p = p.replace(/^\/?src\/pages\/06_TroubleShooting\//i, 'troubleshooting/');
+  // remove /src/pages/05_TroubleShooting
+  p = p.replace(/^\/?src\/pages\/05_TroubleShooting\//i, 'troubleshooting/');
   // remove /mds/
   p = p.replace(/\/mds\//gi, '/');
   // all to lowercase

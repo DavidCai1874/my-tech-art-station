@@ -16,7 +16,7 @@ export default function TSGeneral() {
             {/* Title can link to details */}
             <h2 className="text-xl font-bold mb-2">
               <Link
-                to={`/troubleshooting/general/${issue.id}`}
+                to={issue.id}
                 style={{ textDecoration: "none" }}
               >
                 {issue.title}
@@ -27,6 +27,18 @@ export default function TSGeneral() {
               <span>#{issue.id.toUpperCase()}</span>
               <span className="text-sm text-gray-400">{issue.date}</span>
             </div>
+            {/* Addon image */}
+            {issue.image && (
+              <Link
+                to={issue.id}
+                style={{ display: "block" }}
+              >
+                <img
+                  src={issue.image}
+                  className="w-full h-40 object-cover mb-4"
+                />
+              </Link>
+            )}
             {/* View details button */}
             <Link
               to={issue.id}

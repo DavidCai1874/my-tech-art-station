@@ -62,8 +62,10 @@ export default function AddonBlender() {
             {/* Addon name with link to details */}
             <h2 className="text-xl font-bold mb-2">
               <Link
-                to={`/addons/blender/${addon.id}`}
+                to={addon.githubDoc}
                 style={{ textDecoration: "none" }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {addon.name}
               </Link>
@@ -79,12 +81,29 @@ export default function AddonBlender() {
                 <span key={tag} className="inline-block mr-2 px-2 py-0.5 rounded bg-gray-100 text-gray-700">{tag}</span>
               ))}
             </div>
+            {/* Addon image */}
+            {addon.image && (
+              <a
+                href={addon.githubDoc}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: "block" }}
+              >
+                <img
+                  src={addon.image}
+                  className="w-full h-40 object-cover mb-4"
+                />
+              </a>
+            )}
             {/* Button to view details */}
             <Link
-              to={`/addons/blender/${addon.id}`}
+              to={addon.githubDoc}
+              style={{ textDecoration: "none" }}
               className="mt-auto px-4 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 text-center"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              View Details
+              View Details on GitHub
             </Link>
           </div>
         ))}

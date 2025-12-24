@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "allblue": "node ./scripts/_generateAll.js",
-    "blue": "node ./scripts/generateName.js",
+    "blue": "node ./scripts/_generateName.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
