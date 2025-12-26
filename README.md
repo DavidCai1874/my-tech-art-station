@@ -2,27 +2,27 @@
 
 ## Overview
 
-This website exists because I want to share what I've learned. It's also a place to store all the tools I've made, and all the problems I've solved, so I don't have to solve them twice.
+This website exists because I want to share what I've learned. It's also a place to store all the tools I've made, and all the problems I've solved, so I don't have to solve them from scratch again in the future.
 
 ![website_cover_image](./public/readme_website_cover.png)
 
 ## Features
 
-**Addons & Tools**
+**Addons & Tools** 
   
 - Small addons for Maya, Blender, Unreal, and general workflows.
 
-**TroubleShooting**
+**TroubleShooting** 
   
 - Bug fixes, experiment notes, tutorials based on real problems I've run into, and things I don't want to forget.
 
-**Weekly Logs**
+**Weekly Logs** 
   
-- Weekly WIPs and updates
+- Weekly WIPs and updates.
 
 ## Quick Start
 
-👉 Visit the site: https://davidcai1874.github.io/my-tech-art-station
+Visit the site here ⭐: https://davidcai1874.github.io/my-tech-art-station
 
 ## Status
 
