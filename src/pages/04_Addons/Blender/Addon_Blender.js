@@ -16,11 +16,11 @@ const addonBlender = [
     id: "b-002",
     date: "2025-09-16",
     tags: [
-      "batch process",
+      "import-export",
       "python"
     ],
-    githubDoc: "https://github.com/DavidCai1874/Blender-Batch-Import",
-    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250916135634.png"
+    githubDoc: "https://github.com/DavidCai1874/Blender-FBX-Export-Selection",
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251226155553.png"
   }
 ];
 

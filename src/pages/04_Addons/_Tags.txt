@@ -1,0 +1,26 @@
+Language:
+- python
+- c++
+
+Function:
+- 3d view
+- curve
+- mesh
+- animation
+- baking
+- camera
+- development
+- import-export
+- lighting
+- materials
+- node
+- render
+- rigging
+- timeline
+- workflow
+- uv
+
+Interaction:
+- function
+- panel
+- background

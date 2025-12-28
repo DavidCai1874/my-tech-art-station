@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 
 import toolsImg from './02_tools_cover.png';
 import troubleShootingImg from './02_troubleshooting_cover.png';
-import wip from './02_wip_cover.png';
+import galleryImg from './02_gallery_cover.png';
 import weeklyLogImg from './02_weeklylog_cover.png';
 
 const navItems = [
   { to: '/addons', label: 'Addons & Plugins', img: toolsImg },
   { to: '/troubleshooting', label: 'TroubleShooting', img: troubleShootingImg },
-  { to: '/workinprogress', label: 'Work In Progress', img: wip },
+  { to: '/gallery', label: 'Gallery', img: galleryImg },
   { to: '/weeklylog', label: 'Weekly Log', img: weeklyLogImg },
 ];
 

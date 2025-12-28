@@ -9,15 +9,15 @@ This website exists because I want to share what I've learned. It's also a place
 ## Features
 
 **Addons & Tools** 
-  
+
 - Small addons for Maya, Blender, Unreal, and general workflows.
 
 **TroubleShooting** 
-  
+
 - Bug fixes, experiment notes, tutorials based on real problems I've run into, and things I don't want to forget.
 
 **Weekly Logs** 
-  
+
 - Weekly WIPs and updates.
 
 ## Quick Start

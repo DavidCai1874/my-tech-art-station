@@ -8,7 +8,7 @@ const TS_Maya = [
     title: "Everything Is Node, Every Node Can Be Referenced by an MObject",
     id: "ts-m-0001",
     date: "2025-09-15",
-    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250916161918.png",
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251225172651.png",
     md: ts_m_0001
   },
   {
