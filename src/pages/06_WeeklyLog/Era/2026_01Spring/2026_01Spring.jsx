@@ -2,7 +2,7 @@ import { Routes, Route, useParams, Navigate, useNavigate } from "react-router-do
 import { useEffect, useState } from "react";
 import WeeklyLayout from "../WeeklyLayout";
 import ReactMarkdown from "react-markdown";
-import weeks from "./2026_01Spring";
+import weeks from "./2026_01Spring.js";
 
 export default function _2026Spring() {
   return (
