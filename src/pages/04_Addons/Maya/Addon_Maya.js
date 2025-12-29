@@ -9,7 +9,7 @@ const addonMaya = [
       "python"
     ],
     githubDoc: "https://github.com/DavidCai1874/Maya-Animation-Blocking-Tool",
-    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250916200939.png"
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/Waiting.png"
   },
   {
     name: "Face/Vertice/Edge Index Display",
@@ -20,7 +20,7 @@ const addonMaya = [
       "c++"
     ],
     githubDoc: "https://github.com/DavidCai1874/Maya-Index-Display",
-    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250916222123.png"
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/Waiting.png"
   }
 ];
 

@@ -9,7 +9,7 @@ const addonBlender = [
       "python"
     ],
     githubDoc: "https://github.com/DavidCai1874/Blender-Viewport-And-Render-Visibility-Sync-Addon",
-    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250915180200.png"
+    image: "https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/Waiting.png"
   },
   {
     name: "Blender Batch Import Addon",
