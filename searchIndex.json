@@ -128,6 +128,10 @@
     "path": "weeklylog/2026-01spring/2026-01-04"
   },
   {
+    "title": "2026-01-11",
+    "path": "weeklylog/2026-01spring/2026-01-11"
+  },
+  {
     "title": "Viewport And Render Visibility Sync Addon",
     "path": "addons/Blender/mds/b-001",
     "id": "B-001"
