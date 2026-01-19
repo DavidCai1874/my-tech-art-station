@@ -1802,4 +1802,22 @@ Looking into topdown template.
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260104164240.png)`,BS=`# 2026-01-11
 
-Chilling.`,lo=[{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function LS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(HS,{})})]})}function HS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function qS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(LS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function VS(){return v.jsxs(v.Fragment,{children:[v.jsx(kb,{}),v.jsx(Eb,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(Ub,{})}),v.jsx(bt,{path:"/about",element:v.jsx(Hb,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(Jb,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(qS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(Bb,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(mb,{basename:"/my-tech-art-station",children:v.jsx(VS,{})})}));
+Chilling.`,LS=`# 2026-01-18
+
+Group:
+
+I need a few texture sets to begin working on the tool, captain needs to do some research of format (one map for 3 slots/1 slot). Working on hidden object + quick save versions on Wednes.
+
+Talk about update the tool and texture naming convention with my team on Thurs.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260118174821.png)
+
+***
+
+Personal:
+
+C++ and level switching.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260118174342.png)
+
+Button needs a further global variable for map names. Target level needs some change on controller class for further process.`,lo=[{md:LS,date:"2026-01-18",label:"Week 3 (Jan 18)"},{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function HS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(qS,{})})]})}function qS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function VS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(HS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function YS(){return v.jsxs(v.Fragment,{children:[v.jsx(kb,{}),v.jsx(Eb,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(Ub,{})}),v.jsx(bt,{path:"/about",element:v.jsx(Hb,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(Jb,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(VS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(Bb,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(mb,{basename:"/my-tech-art-station",children:v.jsx(YS,{})})}));
