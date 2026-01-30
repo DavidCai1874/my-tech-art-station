@@ -562,7 +562,7 @@ UNREAL_LIVELINK_ICONS=C:\\Program Files\\Autodesk\\Maya2024\\plug-ins\\UnrealLiv
 The Unreal Engine version I use is **5.3.2**.  
 The Maya version I use is **2024**.
 
-**Note:** This is **not an ideal way to build the entire pipeline**, but it is **a good way for importing blocking models** into UE. The advantage is that it keeps the scene looking exactly the same; the disadvantages are that the shading might be incorrect, the size might be off, and the rig data is huge.
+**Note:** This is **currently not an ideal way to build the entire pipeline**(at least for our group), but it is **a good way for importing blocking models** into UE. The advantage is that it keeps the scene looking exactly the same; the disadvantages are that the shading might be incorrect, the size might be off, and the rig data is huge.
 
 Abstract:
 - \\-**Activate the USD plugin** in both Maya and UE.
@@ -1257,7 +1257,7 @@ The new 2025 Fall section for weekly logs, I'm ready for new things.
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250831150514.png)`,ao=[{md:mS,date:"2025-08-31",label:"Week 14 (Aug 31)"},{md:dS,date:"2025-08-24",label:"Week 13 (Aug 24)"},{md:fS,date:"2025-08-17",label:"Week 12 (Aug 17)"},{md:hS,date:"2025-08-10",label:"Week 11 (Aug 10)"},{md:cS,date:"2025-08-03",label:"Week 10 (Aug 3)"},{md:uS,date:"2025-07-27",label:"Week 9 (Jul 27)"},{md:sS,date:"2025-07-20",label:"Week 8 (Jul 20)"},{md:oS,date:"2025-07-13",label:"Week 7 (Jul 13)"},{md:rS,date:"2025-07-06",label:"Week 6 (Jul 6)"},{md:lS,date:"2025-06-29",label:"Week 5 (Jun 29)"},{md:iS,date:"2025-06-22",label:"Week 4 (Jun 22)"},{md:aS,date:"2025-06-15",label:"Week 3 (Jun 15)"},{md:nS,date:"2025-06-08",label:"Week 2 (Jun 8)"},{md:eS,date:"2025-06-01",label:"Week 1 (Jun 1)"}];function pS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:ao[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(gS,{})})]})}function gS(){const{weekDate:a}=Fe(),l=ao.find(c=>c.date===a)||ao[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2025",v.jsx("br",{}),"Summer"]}),weeks:[...ao],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}const yS=`# 2025-09-07
 
-Verify this section with John:
+Verify this section with prof:
 - \\-Does variations look like this(show him the update page)
 
 ---
@@ -1279,13 +1279,11 @@ Behind the scene:
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250906165649.png)
 App -> TS Router -> TS UE Router -> MD.jsx -> TS_Unreal.js -> ts-ue-0001.md
 
-[Group Contract](https://docs.google.com/document/d/14_SFAJUOBECjnp_4098V8YlURhkut18B/edit?usp=sharing&ouid=115499720411518403328&rtpof=true&sd=true)
-
 
 *Show the [Notion Page](https://www.notion.so/WEEK-1-UPDATE-264832fc2e3680279eb3eaa448335dc0).
 
 ***
-Ask John:
+Ask prof:
 - \\-How do you feel about this, I talk my things, I show the group things.
 - \\-Addons page - write about the addon, why/what/lore; Github page - why/what + link, how, (is billingual necessary?). Thoughts?
 - \\-Wondering what if someone use this year to make a porfoilio, how about the story milestone.
@@ -1343,7 +1341,7 @@ Controls not working, and limits are lost too.
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250913182803.png)
 
-Adrian and I talked, we are both more familiar with rigging in Maya. So, animating in UE is not the most efficient way of doing this.
+captain and I talked, we are both more familiar with rigging in Maya. So, animating in UE is not the most efficient way of doing this.
 
 Checking Maya Unreal live link, ran into bugs... I'll deal with that next week.
 
@@ -1374,7 +1372,7 @@ So might have to set everything as Z up at the very begining. Otherwise:
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20250921164721.png)
 
-Live Link still needs a doc. Talked with Adrian about UE version.
+Live Link still needs a doc. Talked with captain about UE version.
 
 5.6 (Too new)
 
@@ -1437,14 +1435,14 @@ RnD on .usd file and wrote a doc.
 
 ***
 
-Talked with Adrian and decided to use the FBX game export method he discovered:
+Talked with captain and decided to use the FBX game export method he discovered:
 
 [![Watch on YouTube](https://img.youtube.com/vi/9Dtkt2Ogric/0.jpg)](https://www.youtube.com/watch?v=9Dtkt2Ogric&t=622s)
 
 There is a small problem: the pivot is not centered, so I'll write some code to try to solve that.  
 [![Watch on YouTube](https://img.youtube.com/vi/mFWvW1Zj5VQ/0.jpg)](https://www.youtube.com/watch?v=mFWvW1Zj5VQ)
 
-Adrian taught me how to match the grid size with UE. I will write documentation next week.  
+Captain taught me how to match the grid size with UE. I will write documentation next week.  
 [![Watch on YouTube](https://img.youtube.com/vi/3DedT4dAazc/0.jpg)](https://www.youtube.com/watch?v=3DedT4dAazc&t=1s)
 
 File management:  
@@ -1543,7 +1541,7 @@ I'm so f**king tired because of this, I need a good break for a few days.`,ES=`#
 
 Group things:
 
-Me and Adrian both need some time to deal with other things, so the problem solving is paused for this week.
+Me and captain both need some time to deal with other things, so the problem solving is paused for this week.
 
 Personal things:
 
@@ -1553,7 +1551,7 @@ Tried perforce and local server works.
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251102165932.png)
 
-But Adrian Telus cannot log in to gateway, we cannot forward to modem port to his PC.
+But captain Telus cannot log in to gateway, we cannot forward to modem port to his PC.
 
 Github not good, there's 1GB limit.
 
@@ -1561,7 +1559,7 @@ We used Onedrive at last, pull folders onto my files and this will be the latest
 
 ![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20251102170142.png)
 
-Both me and Adrian set up perforce local on our PC. I taught him how to do that. And here's the doc: [https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0004](https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0004)
+Both me and captain set up perforce local on our PC. I taught him how to do that. And here's the doc: [https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0004](https://davidcai1874.github.io/my-tech-art-station/troubleshooting/pipeline/ts-p-0004)
 
 So Onedrive main sharing edit, and we are the only two editing the file.
 
@@ -1584,7 +1582,7 @@ My Perforce Youtube tutorial: [https://www.youtube.com/watch?v=5ACahoVk7QU&t=136
 
 Finally get Perforce set up.
 
-Also taught Adrian to do that and everything's cool rn.
+Also taught captain to do that and everything's cool rn.
 
 Leave the server on, login P4V every time need to sync. Because the server is only 10mb in your memory, 1/30 of how much discord takes.
 
@@ -1598,7 +1596,7 @@ Doc on how to adjust setting to have the best experience.
 
 Portfolio:
 
-Ask John:
+Ask prof:
 I'm thinking about my tool part for my portfolio:
 
 Existing:
@@ -1788,11 +1786,7 @@ Happy New Year!
 
 Group:
 
-Forget if I put this here but an exe for cleaning up the UE project folder.
-
-![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260104164356.png)
-
-Also try to make a auto compiling function but doesn't seems like something I can do in a few days so I'll just pass and do it by hand.
+Tried to make a auto compiling function but doesn't seems like something I can do in a few days so I'll just pass and do it by hand.
 
 ***
 
