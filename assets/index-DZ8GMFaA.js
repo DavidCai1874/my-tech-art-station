@@ -1842,10 +1842,20 @@ Group:
 
 Took a break for personal things.
 
-Friday meeting - bootproj works. It was a misundertstand, I thought was school pc, but turned out to be captain's.
+Friday meeting - bootproj works. It was a misundertstand, I thought it was school pc, but turned out to be captain's.
 
 Sample textures will come in two weeks, I'll be working on the bootproj and other things for now.
 
 Worked on file filtering and updated a test boot v2 for teammates to test and see.
 
-`,lo=[{md:qS,date:"2026-02-01",label:"Week 5 (Feb 1)"},{md:HS,date:"2026-01-25",label:"Week 4 (Jan 25)"},{md:LS,date:"2026-01-18",label:"Week 3 (Jan 18)"},{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function VS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(YS,{})})]})}function YS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function GS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(VS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function IS(){return v.jsxs(v.Fragment,{children:[v.jsx(k2,{}),v.jsx(E2,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(U2,{})}),v.jsx(bt,{path:"/about",element:v.jsx(H2,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(J2,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(GS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(B2,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(m2,{basename:"/my-tech-art-station",children:v.jsx(IS,{})})}));
+`,VS=`# 2026-02-08
+
+Group:
+
+The animators needed a tool that, they can draw a line, and the snake-like rig will follow that.
+
+Working on bootproj's file filtering system.
+
+***
+
+Houdini.`,lo=[{md:VS,date:"2026-02-08",label:"Week 6 (Feb 8)"},{md:qS,date:"2026-02-01",label:"Week 5 (Feb 1)"},{md:HS,date:"2026-01-25",label:"Week 4 (Jan 25)"},{md:LS,date:"2026-01-18",label:"Week 3 (Jan 18)"},{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function YS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(GS,{})})]})}function GS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function IS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(YS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function XS(){return v.jsxs(v.Fragment,{children:[v.jsx(k2,{}),v.jsx(E2,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(U2,{})}),v.jsx(bt,{path:"/about",element:v.jsx(H2,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(J2,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(IS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(B2,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(m2,{basename:"/my-tech-art-station",children:v.jsx(XS,{})})}));
