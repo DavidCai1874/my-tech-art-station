@@ -3,7 +3,7 @@ import md2026_01_11 from './mds/2026-01-11.md?raw';
 import md2026_01_18 from './mds/2026-01-18.md?raw';
 import md2026_01_25 from './mds/2026-01-25.md?raw';
 import md2026_02_01 from './mds/2026-02-01.md?raw';
-// import md2026_02_08 from './mds/2026-02-08.md?raw';
+import md2026_02_08 from './mds/2026-02-08.md?raw';
 // import md2026_02_15 from './mds/2026-02-15.md?raw';
 // import md2026_02_22 from './mds/2026-02-22.md?raw';
 // import md2026_03_01 from './mds/2026-03-01.md?raw';
@@ -28,7 +28,7 @@ const weeks = [
   // { md: md2026_03_01, date: "2026-03-01", label: "Week 9 (Mar 1)" },
   // { md: md2026_02_22, date: "2026-02-22", label: "Week 8 (Feb 22)" },
   // { md: md2026_02_15, date: "2026-02-15", label: "Week 7 (Feb 15)" },
-  // { md: md2026_02_08, date: "2026-02-08", label: "Week 6 (Feb 8)" },
+  { md: md2026_02_08, date: "2026-02-08", label: "Week 6 (Feb 8)" },
   { md: md2026_02_01, date: "2026-02-01", label: "Week 5 (Feb 1)" },
   { md: md2026_01_25, date: "2026-01-25", label: "Week 4 (Jan 25)" },
   { md: md2026_01_18, date: "2026-01-18", label: "Week 3 (Jan 18)" },
