@@ -1858,4 +1858,39 @@ Working on bootproj's file filtering system.
 
 ***
 
-Houdini.`,lo=[{md:VS,date:"2026-02-08",label:"Week 6 (Feb 8)"},{md:qS,date:"2026-02-01",label:"Week 5 (Feb 1)"},{md:HS,date:"2026-01-25",label:"Week 4 (Jan 25)"},{md:LS,date:"2026-01-18",label:"Week 3 (Jan 18)"},{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function YS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(GS,{})})]})}function GS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function IS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(YS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function XS(){return v.jsxs(v.Fragment,{children:[v.jsx(k2,{}),v.jsx(E2,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(U2,{})}),v.jsx(bt,{path:"/about",element:v.jsx(H2,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(J2,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(IS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(B2,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(m2,{basename:"/my-tech-art-station",children:v.jsx(XS,{})})}));
+Personal:
+
+Houdini.`,YS=`# 2026-02-15
+
+Personal:
+
+Houdini asset to UE.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260215121723.png)
+
+`,GS=`# 2026-02-22
+
+Group:
+
+Had a meeting, talked about animatic deliver.
+
+
+***
+
+Personal:
+
+Documenting a plugin and learning Cmake.`,IS=`# 2026-03-01
+
+Group:
+
+Bootproj able to load tools, wrap up next week due to the lack of time for making a better GUI and file filtering system.
+
+***
+
+Personal:
+
+Diamond shader wip.
+
+![](https://raw.githubusercontent.com/DavidCai1874/my-tech-art-station-assets-storage-01/main/20260301170208.png)
+
+`,lo=[{md:IS,date:"2026-03-01",label:"Week 9 (Mar 1)"},{md:GS,date:"2026-02-22",label:"Week 8 (Feb 22)"},{md:YS,date:"2026-02-15",label:"Week 7 (Feb 15)"},{md:VS,date:"2026-02-08",label:"Week 6 (Feb 8)"},{md:qS,date:"2026-02-01",label:"Week 5 (Feb 1)"},{md:HS,date:"2026-01-25",label:"Week 4 (Jan 25)"},{md:LS,date:"2026-01-18",label:"Week 3 (Jan 18)"},{md:BS,date:"2026-01-11",label:"Week 2 (Jan 11)"},{md:US,date:"2026-01-04",label:"Week 1 (Jan 4)"}];function XS(){return v.jsxs(ge,{children:[v.jsx(bt,{index:!0,element:v.jsx(xc,{to:lo[0].date,replace:!0})}),v.jsx(bt,{path:":weekDate",element:v.jsx(QS,{})})]})}function QS(){const{weekDate:a}=Fe(),l=lo.find(c=>c.date===a)||lo[0],[r,o]=U.useState("");return U.useEffect(()=>{o(l.md||"")},[l.md]),v.jsx(Bc,{title:v.jsxs(v.Fragment,{children:["2026",v.jsx("br",{}),"Spring"]}),weeks:[...lo],currentDate:l.date,children:v.jsx("div",{className:"markdown-body",children:v.jsx(la,{children:r})})})}function ZS(){return v.jsxs(ge,{children:[v.jsx(bt,{path:"2026-01spring/*",element:v.jsx(XS,{})}),v.jsx(bt,{path:"2025-09fall/*",element:v.jsx(zS,{})}),v.jsx(bt,{path:"2025-06summer/*",element:v.jsx(pS,{})}),v.jsx(bt,{path:"/",element:v.jsx(tS,{})})]})}function KS(){return v.jsxs(v.Fragment,{children:[v.jsx(k2,{}),v.jsx(E2,{}),v.jsxs(ge,{children:[v.jsx(bt,{path:"/",element:v.jsx(U2,{})}),v.jsx(bt,{path:"/about",element:v.jsx(H2,{})}),v.jsx(bt,{path:"/addons/*",element:v.jsx(J2,{})}),v.jsx(bt,{path:"/troubleshooting/*",element:v.jsx(W4,{})}),v.jsx(bt,{path:"/weeklylog/*",element:v.jsx(ZS,{})}),v.jsx(bt,{path:"/gallery",element:v.jsx(B2,{})})]})]})}ty.createRoot(document.getElementById("root")).render(v.jsx(_p.StrictMode,{children:v.jsx(m2,{basename:"/my-tech-art-station",children:v.jsx(KS,{})})}));
