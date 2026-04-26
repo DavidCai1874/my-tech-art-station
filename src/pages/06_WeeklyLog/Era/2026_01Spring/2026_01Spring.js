@@ -14,10 +14,10 @@ import md2026_03_29 from './mds/2026-03-29.md?raw';
 import md2026_04_05 from './mds/2026-04-05.md?raw';
 import md2026_04_12 from './mds/2026-04-12.md?raw';
 import md2026_04_19 from './mds/2026-04-19.md?raw';
-// import md2026_04_26 from './mds/2026-04-26.md?raw';
+import md2026_04_26 from './mds/2026-04-26.md?raw';
 
 const weeks = [
-  // { md: md2026_04_26, date: "2026-04-26", label: "Week 17 (Apr 26)" },
+  { md: md2026_04_26, date: "2026-04-26", label: "Week 17 (Apr 26)" },
   { md: md2026_04_19, date: "2026-04-19", label: "Week 16 (Apr 19)" },
   { md: md2026_04_12, date: "2026-04-12", label: "Week 15 (Apr 12)" },
   { md: md2026_04_05, date: "2026-04-05", label: "Week 14 (Apr 5)" },
